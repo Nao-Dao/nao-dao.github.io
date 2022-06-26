@@ -6,3 +6,7 @@
 > 在脑岛，人人都是心理学家
 
 [Getting Started](#docsify)
+
+<!-- background color -->
+
+![color](#f0f0f0)

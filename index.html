@@ -25,10 +25,19 @@
       subMaxLevel: 2,
       maxLevel: 3,
       loadNavbar: true,
-      // coverpage: ['/'],
+      coverpage: ['/'],
       name: 'Nao Dao',
       logo: "assets/imgs/logo.png",
-      search: "auto",
+      search: {
+        noData: {
+            '/': '没有结果！'
+          },
+          paths: 'auto',
+          placeholder: {
+            '/': '搜索一下'
+          },
+          pathNamespaces: [],
+      },
       executeScript: true,
       mergeNavbar: true,
     }
