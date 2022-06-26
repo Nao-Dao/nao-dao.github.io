@@ -6,4 +6,16 @@
 
 ?> Chen, G., Gao, X., Yan, X., Du, M., Zang, Y., & Wang, Y. (2022). The History, Current Situation and Prospects of Online Psychological Research. ChinaXiv. http://chinaxiv.org/abs/202206.00150
 
+## 进入研究者平台
+
+用户注册后，可以点击官网上方的【研究者平台】或直接访问 https://www.naodao.com/research 进入研究者平台。
+
+![](imgs/Frame%2023.png)
+
+脑岛【研究者平台】目前一共有【项目】、【被试库】、【资源库】和【个人中心】等四个主要功能版块。
+
+> 研究者平台所有功能都需要在个人中心完成认证后方可使用
+
+![](imgs/Frame%2024.png)
+
 ## [视频教程](https://b23.tv/BV1ei4y127kS)
