@@ -29,14 +29,15 @@
       name: 'Nao Dao',
       logo: "assets/imgs/logo.png",
       search: {
+        maxAge: 86400000,
         noData: {
-            '/': '没有结果！'
-          },
-          paths: 'auto',
-          placeholder: {
-            '/': '搜索一下'
-          },
-          pathNamespaces: [],
+          '/': '没有结果！'
+        },
+        paths: 'auto',
+        placeholder: {
+          '/': '搜索一下'
+        },
+        pathNamespaces: [],
       },
       executeScript: true,
       mergeNavbar: true,
@@ -48,18 +49,18 @@
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
 <script>
-  // 主题的切换
-  (() => {
-    let themes = Docsify.dom.findAll('[rel="stylesheet"]');
-    let title = localStorage.getItem("data-theme") ? localStorage.getItem("data-theme") : "vue";
-    themes.forEach(function (theme) {
-      theme.disabled = theme.title !== title;
-      if(theme.title == "gitalk") {
-        theme.disabled = false;
-      }
-      localStorage.setItem("data-theme", title);
-    });
-  })();
+    // 主题的切换
+    (() => {
+      let themes = Docsify.dom.findAll('[rel="stylesheet"]');
+      let title = localStorage.getItem("data-theme") ? localStorage.getItem("data-theme") : "vue";
+      themes.forEach(function (theme) {
+        theme.disabled = theme.title !== title;
+        if (theme.title == "gitalk") {
+          theme.disabled = false;
+        }
+        localStorage.setItem("data-theme", title);
+      });
+    })();
 </script>
 <script>
   const gitalk = new Gitalk({
