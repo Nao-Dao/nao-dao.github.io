@@ -89,3 +89,30 @@ PsychoPy资源是线上下线下兼容的，但是有一些例外，这里就是
 ### 修改背景颜色
 
 如果你的版本是2021.2.3，请参考这篇[帖子](https://forum.naodao.com/postingInfo?id=1541755998795206657)
+
+### 数据并未上传到脑岛
+
+* 方案1
+
+请检查文件夹是否具有`lib`文件夹，这个是本地调试自动生成的，上传请删除。
+
+### 线上自动运行
+
+不做解释，内部人员使用
+
+```javascript
+function sleep (time) {
+    return new Promise((resolve) => setTimeout(resolve, time));
+  }
+
+setInterval(() => {
+    window.dispatchEvent(new KeyboardEvent("keydown", { key: "3", code: 'Digit3'}));
+    window.dispatchEvent(new KeyboardEvent("keyup", { key: "3", code: 'Digit3' }));
+    window.dispatchEvent(new KeyboardEvent("keydown", { key: "3", code: 'Digit3'}));
+    window.dispatchEvent(new KeyboardEvent("keyup", { key: "3", code: 'Digit3' }));
+    sleep(100).then(() => {
+        window.dispatchEvent(new KeyboardEvent("keydown", { key: "Enter", code: 'Enter'}));
+        window.dispatchEvent(new KeyboardEvent("keyup", { key: "Enter", code: 'Enter' }));
+    });
+}, 1000);
+```
