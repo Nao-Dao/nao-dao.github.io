@@ -2,6 +2,10 @@
 
 > 更多请在[Github Issue](https://github.com/psychopy/psychopy/issues)查看
 
+## 被试没有做完实验，但也需要上传数据
+
+如果你想保存部分数据，但前提是参与者完成了最小量的实验（例如100个trials），可以添加`PsychoJS._config.experiment.saveIncompleteResults = true;` 到适当Routine中的 JS 组件【待测试】。
+
 ## 语法问题
 
 python语法和js语法不同，以下是在论坛反馈过的语法问题**注意，以下代码均不能在线上运行，需手动修改**：
