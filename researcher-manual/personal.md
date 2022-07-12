@@ -1,4 +1,4 @@
-# 个人中心
+# 个人中心 <!-- {docsify-ignore-all} -->
 
 ![](imgs/27.png)
 

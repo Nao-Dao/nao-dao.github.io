@@ -2,6 +2,10 @@
 
 > 更多请在[Github Issue](https://github.com/psychopy/psychopy/issues)查看
 
+## psychopy 2021.2.3 polygon组件显示圆形出错
+
+用builder的话，就改用regular shape，并且调成999（即正999边形，即圆）
+
 ## 被试没有做完实验，但也需要上传数据
 
 如果你想保存部分数据，但前提是参与者完成了最小量的实验（例如100个trials），可以添加`PsychoJS._config.experiment.saveIncompleteResults = true;` 到适当Routine中的 JS 组件【待测试】。
