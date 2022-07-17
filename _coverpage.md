@@ -1,5 +1,5 @@
 
-![logo](assets/imgs/logo.png)
+<a href="https://www.naodao.com">![logo](assets/imgs/logo.png)</a>
 
 # 脑岛 <small>3.4.0</small>
 

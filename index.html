@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="UTF-8">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" title="vue" disabled />
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css" title="dark" />
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/buble.css" title="buble" disabled />
@@ -29,6 +30,7 @@
   <div id="app">Loader....</div>
   <script>
     window.$docsify = {
+      noCompileLinks: ['/assets/.*'],
       repo: 'Nao-Dao/nao-dao.github.io',
       loadSidebar: true,
       relativePath: false,
@@ -71,6 +73,13 @@
         localStorage.setItem("data-theme", title);
       });
     })();
+    setInterval(()=>{
+      if(localStorage.getItem("data-theme")=="dark") {
+      $(".cover.show").css("backgroundColor", "rgb(37, 37, 37)");}
+      else {
+      $(".cover.show").css("backgroundColor", "rgb(240, 240, 240)");
+      }
+    });
 </script>
 <script>
   const gitalk = new Gitalk({
