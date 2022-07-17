@@ -38,7 +38,7 @@
 
 #### 数据采集协议（合同）
 
-对于研究者需要平台方提供被试费证明协议材料（或合同）以供报销的，可以下载 [脑岛平台数据采集服务协议](https://nao-dao.github.io/researcher-manual/assets/脑岛平台数据采集服务协议.docx)进行填写，然后联系充值客服邮箱[mkt@naodao.com](mailto:mkt@naodao.com)进行后续步骤。
+对于研究者需要平台方提供被试费证明协议材料（或合同）以供报销的，可以下载 [脑岛平台数据采集服务协议](/assets/%E8%84%91%E5%B2%9B%E5%B9%B3%E5%8F%B0%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86%E6%9C%8D%E5%8A%A1%E5%8D%8F%E8%AE%AE.docx)进行填写，然后联系充值客服邮箱[mkt@naodao.com](mailto:mkt@naodao.com)进行后续步骤。
 
 > 数据采集协议仅支持对公充值流程的研究者填写
 

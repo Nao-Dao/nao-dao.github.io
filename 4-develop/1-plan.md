@@ -8,4 +8,4 @@
 
 ![image-20220702103953023](https://cdn.jsdelivr.net/gh/mupsycho/img1/macImg/202207021039693.png)
 
-2. 
+2. 手册视频计划
