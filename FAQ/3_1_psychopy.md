@@ -2,6 +2,12 @@
 
 > 更多请在[Github Issue](https://github.com/psychopy/psychopy/issues)查看
 
+## 线下正常，线上未报错，不过不符合实验逻辑
+
+- 情况1:
+
+在循环中，使用code组件在begin experiment对时间线变量进行重定义。删除重定义即可。比如，xlsx有`cc`列，在循环中将`cc=0`加到组件中，则在调用的时候，无论xlsx给的是什么，程序获取到的都是`0`这个值。
+
 ## psychopy 2021.2.3 polygon组件显示圆形出错
 
 用builder的话，就改用regular shape，并且调成999（即正999边形，即圆）
@@ -44,7 +50,7 @@ PsychoPy是一款老牌的心理学实验编写软件，并支持在线实验功
 是的，请您不要上传超过100M的实验压缩包。您可以通过压缩图片、压缩视频等方式来减少压缩包的大小。
 
 ## PsychoPy目前支持哪些版本？
-详见[PsychoPy实验](../researcher-manual/project1-2-5.md)
+详见[PsychoPy实验](https://nao-dao.github.io/#/researcher-manual/project1-2-5)
 
 您好，目前仅支持2020.1.3与2021.2.3版本，请您务必使用这两个版本编写。我们选择这两个版本的原因在于，这两个版本实验编辑器本身问题较少，同时所对应的线上实验也更稳定。后续如有优化，我们也会继续支持更多版本。
 
