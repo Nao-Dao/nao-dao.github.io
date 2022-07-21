@@ -1,4 +1,6 @@
-# 画布和节点
+# 画布和节点 <!-- {docsify-ignore-all} -->
+
+[](https://player.bilibili.com/player.html?aid=551750765&bvid=BV1ei4y127kS&cid=515190377&page=3 ':include :type=iframe')
 
 脑岛研究者平台希望您在脑岛中所做的一切都可以通过一个清晰且直观的界面来展现，因此脑岛提供了一套简单易用但又功能强大的画布工具，您可通过画布工具轻松快速地编辑自己的项目和实验，并且只需通过鼠标拖动即可设计复杂的项目流程。
 

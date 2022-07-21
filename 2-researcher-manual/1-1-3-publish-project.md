@@ -1,4 +1,8 @@
-# 发布项目
+# 发布项目 <!-- {docsify-ignore-all} -->
+
+[](https://player.bilibili.com/player.html?aid=551750765&bvid=BV1ei4y127kS&cid=515191969&page=6 ':include :type=iframe')
+
+[](https://player.bilibili.com/player.html?aid=551750765&bvid=BV1ei4y127kS&cid=515192869&page=7 ':include :type=iframe')
 
 当项目编辑完成后，可点击【画布】右上方的【发布】按钮进行项目发布。
 

@@ -1,4 +1,4 @@
-# 简单云
+# 简单云 <!-- {docsify-ignore-all} -->
 
 【简单云】实验的使用方法请参考[简单云实验平台的使用手册](https://www.naodao.com/public/air_cog_sci.pdf)。
 

@@ -1,4 +1,4 @@
-# 问卷节点
+# 问卷节点 <!-- {docsify-ignore-all} -->
 
 ![](imgs/projects1-2/11-0.gif)
 

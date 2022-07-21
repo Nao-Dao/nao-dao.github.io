@@ -1,5 +1,7 @@
 # 新建项目 <!-- {docsify-ignore-all} -->
 
+[](https://player.bilibili.com/player.html?aid=551750765&bvid=BV1ei4y127kS&cid=515182072&page=2 ':include :type=iframe')
+
 您可点击页面右上角「创建项目」按钮新建研究项目。
 
 ![](imgs/projects1-1/Frame%2015.png)

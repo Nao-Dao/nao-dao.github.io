@@ -1,4 +1,6 @@
-# jsPsych实验
+# jsPsych实验 <!-- {docsify-ignore-all} -->
+
+[](https://player.bilibili.com/player.html?aid=551750765&bvid=BV1ei4y127kS&cid=515190723&page=5 ':include :type=iframe')
 
 jsPsych 是专门服务于在线实验的工具包。使用 jsPsych 至少需要掌握一定的 JavaScript 语法。脑岛提供了对于 jsPsych 7.1 的支持。
 

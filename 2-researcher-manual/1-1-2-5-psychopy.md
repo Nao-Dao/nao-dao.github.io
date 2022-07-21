@@ -1,4 +1,6 @@
-# PsychoPy实验
+# PsychoPy实验 <!-- {docsify-ignore-all} -->
+
+[](https://player.bilibili.com/player.html?aid=551750765&bvid=BV1ei4y127kS&cid=515191588&page=4 ':include :type=iframe')
 
 PsychoPy 是流行的创建心理学行为实验的工具。脑岛提供了对于 PsychoPy [2021.2.3](https://github.com/psychopy/psychopy/releases/tag/2021.2.3) 和 [2020.1.3](https://github.com/psychopy/psychopy/releases/tag/2020.1.3) 生成的在线实验的支持。需要注意，PsychoPy 使用 Builder 编写的实验才能自动转换成在线实验，使用 coder 编写的Python（本地）实验无法转换为在线实验。
 

@@ -1,4 +1,7 @@
-# 资源库
+# 资源库 <!-- {docsify-ignore-all} -->
+
+[](https://player.bilibili.com/player.html?aid=551750765&bvid=BV1ei4y127kS&cid=515196548&page=8 ':include :type=iframe')
+
 用户可点击**资源库**按钮进入脑岛的资源库页面。
 
 ![](imgs/26-0.png)
