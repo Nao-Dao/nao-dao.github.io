@@ -2,6 +2,79 @@
 
 > 更多请在[Github Issue](https://github.com/psychopy/psychopy/issues)查看
 
+> 截至日期 2022/10/01
+
+## 变量获取不到
+
+不要擅自使用 `var a` 这个方式来命名变量，psychopy会自动加的，不需要担心初始化的问题。
+
+## 让被试进行指定试次数
+
+只需要在loop的设置窗口中的selected rows输入框输入 `0:n` 就可以让被试一个循环进行n个试次了，多个位置用`,`分隔。
+
+## 如何让被试选择slider后仍然可以做调整
+
+第一步，添加一个button，也可以是其他的反应内容。出现条件改为condition，里面填入`$show_button`
+
+第二步，添加一个code，在begin routine添加`show_button = False`，
+
+第三步，在code的each frame添加如下代码：
+```python
+# 手动将None转换为undefined（而非null）
+show_button = slider.getRating() is not None
+# print(slider.getRating())
+if show_button:
+    text.text = slider.getRating() # 将评分呈现出来
+```
+
+## textbox 居中问题
+
+线下暂未研究过，预计得从pygame入手。
+
+线上需要加一个 code组件，code type 调整为 both。然后在右边添加如下代码：
+```javascript
+$("textarea").css({
+display: "block",
+textAlign: "center",
+padding: (
+$("textarea").height() / 4
+).toString() + "px 0"
+});
+
+$("textarea").focus();
+```
+
+`$("textarea").height() / 4` 这个是用来实现水平居中的，可以是 / 2，因为我看 / 4 的效果不是很好。
+
+
+## textbox组件之后无法输入内容
+
+在2021.2.3的版本中，textbox有bug来着。需要手动加个js代码让文本框显示出来～
+
+也就是需要加一个 code组件，code type 调整为 both。然后在右边添加如下代码：
+```javascript
+$("textarea").css("display", "block");
+
+$("textarea").focus();
+```
+
+## 如何检测被试按压一个键不松开
+
+首先需要在build页面加入一个code组件和keyboard组件。
+
+在code组件中添加如下代码：
+```python
+pressed_keys = show_stimuli_keyboard.getKeys(waitRelease=False, clear=False)
+
+if len(pressed_keys) > 0:
+    this_key = pressed_keys[len(pressed_keys)-1] # 获取按压键的最后一个键
+    if not this_key.duration:
+        # 如果按压了某个键
+    else:
+        # 按压结束后
+```
+
+`show_stimuli_keyboard` 是 keyboard的名称
 
 ## 视频播放出错
 
@@ -35,6 +108,7 @@ python语法和js语法不同，以下是在论坛反馈过的语法问题**注�
 4. divmod()
 5. time.clock()
 6. str(423)
+7. 1 & 1 == 1
 
 对应方案：
 
@@ -44,6 +118,7 @@ python语法和js语法不同，以下是在论坛反馈过的语法问题**注�
 4. 取整：Math.floor(7 / 5)  取余：7 % 5
 5. new Date().getTime()
 6. (423).toString()
+7. 1 and 1 == 1
 
 ## rating marker的起始位置线上不显示
 
@@ -78,6 +153,8 @@ PsychoPy里可以使用Height单位（即屏幕高度为单位1），这样所�
 ## PsychoPy code 涉及到import等语法
 
 线上没有numpy等库，不支持import语法（需要使用替代的函数）
+
+替代函数的来源，可以自行百度
 
 ## 资源库BART实验 线下运行只有一个试次
 
@@ -115,6 +192,7 @@ PsychoPy资源是线上下线下兼容的，但是有一些例外，这里就是
 * Garamond (serif)
 * Courier New (monospace)
 * Brush Script MT(cursive)
+* STSong
 
 ## 部分图片材料不能正确读取
 
@@ -131,7 +209,7 @@ PsychoPy资源是线上下线下兼容的，但是有一些例外，这里就是
 请确保变量名称与各个Routine名称、loop名称、循环条件名称均不相等，不然会造成JavaScript重定义问题
 
 [案例1](https://forum.naodao.com/postingInfo?id=1522061951159767041)
-[案例2]()
+[案例2](https://forum.naodao.com/postingInfo?id=1574235865155375105)
 
 ## 条件的变量为空，造成undefined
 
