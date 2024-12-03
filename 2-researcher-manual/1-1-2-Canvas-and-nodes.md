@@ -35,31 +35,30 @@
 
 + 功能控制节点
     - 开始节点
-    - [结束节点](https://www.yuque.com/naodao/researcher-manual/wsskd2)
+    - [结束节点](/2-researcher-manual/1-1-2-9-end.md)
 
 
 
 + 问卷类型节点
-    - [问卷节点](https://www.yuque.com/naodao/researcher-manual/yzfmca)
-    - [个人信息](https://www.yuque.com/naodao/researcher-manual/ei64ss)（预设的一套用于收集个人信息的问卷）
-    - [测试环境](https://www.yuque.com/naodao/researcher-manual/kczv8q)<font style="color:rgb(38, 38, 38);">（预设的一套用于收集被试作答环境的问卷）</font>
+    - [问卷节点](/2-researcher-manual/1-1-2-1-questionnaire.md)
+    - [个人信息](/2-researcher-manual/1-1-2-2-personal-info.md)（预设的一套用于收集个人信息的问卷）
+    - [测试环境](/2-researcher-manual/1-1-2-3-env.md)<font style="color:rgb(38, 38, 38);">（预设的一套用于收集被试作答环境的问卷）</font>
 
 
 
 + 实验类型节点
-    - [简单云节点](https://www.yuque.com/naodao/researcher-manual/gv48m4)
-    - [PsychoPy 节点](https://www.yuque.com/naodao/researcher-manual/fyi7b2)
-    - [jsPsych 节点](https://www.yuque.com/naodao/researcher-manual/wyb6hn)
+    - [简单云节点](/2-researcher-manual/1-1-2-4-simple-cloud.md)
+    - [PsychoPy 节点](/2-researcher-manual/1-1-2-5-psychopy.md)
+    - [jsPsych 节点](/2-researcher-manual/1-1-2-6-jspsych.md)
 
 
 
 + 分组器节点
-    - [随机分组节点](https://www.yuque.com/naodao/researcher-manual/guw5um)
-    - [行为分组节点](https://www.yuque.com/naodao/researcher-manual/ih2gp8)
+    - [随机分组节点](/2-researcher-manual/1-1-2-7-Random-grouping.md)
+    - [行为分组节点](/2-researcher-manual/1-1-2-8-behavior-grouping.md)
 
 
-
-+ [由资源库导入节点](https://www.yuque.com/naodao/researcher-manual/gy8vkb)
++ [由资源库导入节点](/2-researcher-manual/1-1-2-10-resource.md)
 
 
 

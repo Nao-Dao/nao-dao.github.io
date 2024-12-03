@@ -1,7 +1,7 @@
 # 个人中心 <!-- {docsify-ignore-all} -->
 ![](../images/2024/1710317189453-281861ab-8dd7-495c-8921-11767dd5dba5.png)
 
-当用户注册后，在进入研究者平台时脑岛会要求用户[认证成为研究者](https://www.yuque.com/naodao/researcher-manual/zrvxbia2f4apwi85)。如果用户没有完善（认证）个人资料，则不能使用研究者平台所有功能。每一次进入研究者平台，脑岛都会提示用户完善个人资料。
+当用户注册后，在进入研究者平台时脑岛会要求用户[认证成为研究者](/2-researcher-manual/0-must-read.md)。如果用户没有完善（认证）个人资料，则不能使用研究者平台所有功能。每一次进入研究者平台，脑岛都会提示用户完善个人资料。
 
 
 
@@ -14,7 +14,7 @@
 
 ![](../images/2024/1710321465088-97009e51-974a-4516-b372-8ce19a047dbc.png)
 
-「账户明细」中可以查看余额、冻结金额的明细和导出。导出明细具体步骤参见[充值与报销 - 被试费明细](https://www.yuque.com/naodao/researcher-manual/transfer#R3NgM)。
+「账户明细」中可以查看余额、冻结金额的明细和导出。导出明细具体步骤参见[充值与报销 - 被试费明细](/2-researcher-manual/4-1-recharge.md#被试费明细)。
 
 ## 账户安全
 
@@ -23,7 +23,7 @@
 
 ![](../images/2024/1710318424991-c56d5042-76e6-44d1-88b8-a89c5fab2579.png)
 
-除邮箱外，账户安全中的其他项目都和官网保持同步。详见[官网个人中心说明](https://www.yuque.com/naodao/user-manual/personal#OEwMp)。
+除邮箱外，账户安全中的其他项目都和官网保持同步。详见[官网个人中心说明](/2-researcher-manual/4-personal.md)。
 
 ## 订单管理
 
@@ -41,12 +41,10 @@
 
 
 
-导出支付订单参见[充值与报销 - 被试费明细](https://www.yuque.com/naodao/researcher-manual/transfer#R3NgM)。
+导出支付订单参见[充值与报销 - 被试费明细](/2-researcher-manual/4-1-recharge.md#被试费明细)。
 
 ## 开具发票
-主条目：[充值与报销](https://www.yuque.com/naodao/researcher-manual/transfer)
-
-
+主条目：[充值与报销](/2-researcher-manual/4-1-recharge.md#报销事宜)
 
 在开具发票的**<font style="color:rgb(118, 183, 133);">开票记录</font>**栏目中，可以查看过往的开票记录，点击「开具发票」可以为余额新开发票。
 
@@ -61,12 +59,8 @@
 
 用户可在**文件管理**版块中上传图片、音频和视频等材料。需要注意的是，上传材料的质量不应该超过相应的限制。文件管理中的材料可以在简单云和 RSA 实验中使用。
 
-
-
 > 【脑岛Tips】上传材料的文件名请不要包含特殊字符
 >
-
-
 
 ## 消息中心
 ![](../images/2024/1710320607320-fd36319b-d6f5-4725-b245-346a1f615d45.png)

@@ -21,7 +21,7 @@
 【发布管理】页面右侧【操作】栏里可以对已发布的项目进行 2 种操作：【查看发布信息】和【取消发布】
 
 ## 查看发布信息
-主条目：[发布项目](https://www.yuque.com/naodao/researcher-manual/cd165t#ERkAh)
+主条目：[发布项目](/2-researcher-manual/1-1-6-publish-project.md)
 
 
 

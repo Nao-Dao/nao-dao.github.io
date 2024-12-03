@@ -24,7 +24,7 @@ PsychoPy 新手？我们也为你整理了一些学习资源
 ## <font style="color:rgb(51, 51, 51);">允许每个被试打开该实验程序的次数</font>
 
 
-您可以设置当前实验的名称以及规定**允许每个被试打开该实验程序的次数**。此处的次数限制是指在一个项目中允许被试打开实验的次数，**只能在一次项目项目作答中起到次数限制的作用**，与项目级别的控制「[允许用户重复作答](https://www.yuque.com/naodao/researcher-manual/cd165t#iAm3a)<font style="color:rgb(51, 51, 51);">」不同</font>。
+您可以设置当前实验的名称以及规定**允许每个被试打开该实验程序的次数**。此处的次数限制是指在一个项目中允许被试打开实验的次数，**只能在一次项目项目作答中起到次数限制的作用**，与项目级别的控制「[允许用户重复作答](/2-researcher-manual/1-1-6-publish-project.md#作答设置)<font style="color:rgb(51, 51, 51);">」不同</font>。
 
 <font style="color:rgb(38, 38, 38);"></font>
 
@@ -60,9 +60,7 @@ PsychoPy 新手？我们也为你整理了一些学习资源
 预览结束后，浏览器会下载本次预览生成的数据文件以供检查。
 
 ## 实验计分
-主条目：[行为分组](https://www.yuque.com/naodao/researcher-manual/ih2gp8#YIS9r)
-
-
+主条目：[行为分组](/2-researcher-manual/1-1-2-8-behavior-grouping.md)
 
 在上传实验包之后，用户**可选**上传代码解析实验生成的 CSV 数据文件，从而得到一个数值结果。这个结果能在后续的行为分组节点中使用。
 

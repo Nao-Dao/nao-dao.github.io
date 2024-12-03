@@ -82,7 +82,7 @@
 
 
 
-如果该期限没有人工审核，将触发**<font style="color:#DF2A3F;">系统自动审核</font>**，系统将根据问卷发布中设置的[检查题数量阈值](https://www.yuque.com/naodao/researcher-manual/cvixs4hqh82v2cnt#BYzK1)来判断是否给予通过：当检查题错误数量**小于**该阈值，则系统将审核通过；相反若**大于等于**该阈值则会系统拒绝。若没有设置检查题则**<font style="color:#DF2A3F;">默认系统通过</font>**。
+如果该期限没有人工审核，将触发**<font style="color:#DF2A3F;">系统自动审核</font>**，系统将根据问卷发布中设置的[检查题数量阈值](/2-researcher-manual/1-1-6-publish-project.md#验证错题数)来判断是否给予通过：当检查题错误数量**小于**该阈值，则系统将审核通过；相反若**大于等于**该阈值则会系统拒绝。若没有设置检查题则**<font style="color:#DF2A3F;">默认系统通过</font>**。
 
 
 
