@@ -2,7 +2,7 @@
 ## 项目管理 <!-- {docsify-ignore-all} -->
 在项目界面可以对已有的项目进行管理。
 
-![](https://cdn.nlark.com/yuque/0/2022/png/26719757/1653905707367-be30ceea-c29c-4da7-b51a-07c54fdfaf28.png)
+![](../images/2022/1653905707367-be30ceea-c29c-4da7-b51a-07c54fdfaf28.png)
 
 ## 项目总览
 ### 名称
@@ -31,11 +31,11 @@
 
 只有匿名发布的项目才会生成一个对应的匿名链接，您可以点击【复制链接】按钮获取属于特定匿名项目的项目链接。您可以将该链接发给指定的被试，被试在浏览器中打开该链接即可开始作答。
 
-![](https://cdn.nlark.com/yuque/0/2022/png/26719757/1647583374879-12a27277-30a9-4cf3-8842-3d06ba326b68.png)
+![](../images/2022/1647583374879-12a27277-30a9-4cf3-8842-3d06ba326b68.png)
 
-![](https://cdn.nlark.com/yuque/0/2022/png/26719757/1647583362060-8b85c2e1-bb4d-4ab0-9d2f-260279085466.png)
+![](../images/2022/1647583362060-8b85c2e1-bb4d-4ab0-9d2f-260279085466.png)
 
-![](https://cdn.nlark.com/yuque/0/2022/gif/26719757/1647583374961-12c1113b-92a8-4d12-a133-9000b0ee9927.gif)
+![](../images/2022/1647583374961-12c1113b-92a8-4d12-a133-9000b0ee9927.gif)
 
 ### 参与人数
 
@@ -46,7 +46,7 @@
 
 这个指标的统计标准是非常宽泛的，任何点击该项目的**开始**按钮的被试都被认为是参与过该项目。因此您可以想到的是，并非所有的参与者都会完整地做完项目且正常提交数据，同时也不是所有正常提交数据的参与者都是认真地作答题目。所以一个项目的**参与人数**总是<font style="color:#FFA940;">大于或等于</font>一个项目的**有效数量**。
 
-![](https://cdn.nlark.com/yuque/0/2022/png/26719757/1647583375118-36fe739e-1563-410e-8180-180101dfed13.png)
+![](../images/2022/1647583375118-36fe739e-1563-410e-8180-180101dfed13.png)
 
 ### 有效数量
 
@@ -63,17 +63,17 @@
 
 一个项目的**总数**就是您在发布项目时设置的**发布数量**
 
-![](https://cdn.nlark.com/yuque/0/2022/png/26719757/1647583372856-167b76d4-61c0-445c-9571-fdf31f35fd4c.png)
+![](../images/2022/1647583372856-167b76d4-61c0-445c-9571-fdf31f35fd4c.png)
 
 ### 项目说明
 
 
 即您在创建项目时设置的**项目介绍**
 
-![](https://cdn.nlark.com/yuque/0/2022/png/26719757/1647583375202-9f0f58a9-921a-4a65-ba95-d83f5293ea71.png)
+![](../images/2022/1647583375202-9f0f58a9-921a-4a65-ba95-d83f5293ea71.png)
 
 ## 项目操作
-![](https://cdn.nlark.com/yuque/0/2022/png/26719757/1647583375278-783ac098-220d-41a3-91e7-3a9496d22d23.png)
+![](../images/2022/1647583375278-783ac098-220d-41a3-91e7-3a9496d22d23.png)
 
 ### 编辑
 
@@ -105,18 +105,18 @@
 
 您可以点击【下载数据】按钮进入项目数据下载页面。
 
-![](https://cdn.nlark.com/yuque/0/2022/png/26719757/1647583375354-ce390526-5933-4d6d-aec3-3372fddf2d63.png)
+![](../images/2022/1647583375354-ce390526-5933-4d6d-aec3-3372fddf2d63.png)
 
-![](https://cdn.nlark.com/yuque/0/2022/png/26719757/1647583362060-8b85c2e1-bb4d-4ab0-9d2f-260279085466.png)
+![](../images/2022/1647583362060-8b85c2e1-bb4d-4ab0-9d2f-260279085466.png)
 
-![](https://cdn.nlark.com/yuque/0/2022/png/26719757/1647583375429-24557335-2b92-4ae3-9e1f-b18d161e759c.png)
+![](../images/2022/1647583375429-24557335-2b92-4ae3-9e1f-b18d161e759c.png)
 
 ### 设置分类
 
 
 您可点击【设置分类】按钮将项目分类到不同的组别。
 
-![](https://cdn.nlark.com/yuque/0/2022/gif/26719757/1647583376256-563f9c1d-7a33-47bb-acf3-97c8c733d46b.gif)
+![](../images/2022/1647583376256-563f9c1d-7a33-47bb-acf3-97c8c733d46b.gif)
 
 ## <font style="color:rgb(38, 38, 38);">项目分类</font>
 ### <font style="color:rgb(38, 38, 38);">新建分类</font>
@@ -124,24 +124,24 @@
 
 <font style="color:rgb(38, 38, 38);">您可通过【新建分类】按钮创建新的项目分类。</font>
 
-![](https://cdn.nlark.com/yuque/0/2022/gif/26719757/1647583374276-2084cc69-201d-494f-b318-d1ae6e4f6186.gif)
+![](../images/2022/1647583374276-2084cc69-201d-494f-b318-d1ae6e4f6186.gif)
 
 ### <font style="color:rgb(38, 38, 38);">编辑分类</font>
 <font style="color:rgb(38, 38, 38);">  
 </font><font style="color:rgb(38, 38, 38);">您可通过【编辑分类】按钮对创建的分类进行</font>**<font style="color:rgb(38, 38, 38);">重命名</font>**<font style="color:rgb(38, 38, 38);">和</font>**<font style="color:rgb(38, 38, 38);">删除</font>**<font style="color:rgb(38, 38, 38);">。</font>
 
-![](https://cdn.nlark.com/yuque/0/2022/gif/26719757/1647583374367-e0799766-7a1e-4ba8-abc2-a7438a3522ab.gif)
+![](../images/2022/1647583374367-e0799766-7a1e-4ba8-abc2-a7438a3522ab.gif)
 
 ## <font style="color:rgb(38, 38, 38);">查询项目</font>
 
 
 <font style="color:rgb(38, 38, 38);">您可在【查询】左侧的文本框中输入</font>**<font style="color:rgb(38, 38, 38);">项目名称</font>**<font style="color:rgb(38, 38, 38);">，并通过【查询】按钮查找特定的项目。</font>
 
-![](https://cdn.nlark.com/yuque/0/2022/png/26719757/1647583374449-ae39b1cc-28e9-4857-891f-803da1ff0d1f.png?x-oss-process=image%2Fresize%2Cw_777%2Climit_0)
+![](../images/2022/1647583374449-ae39b1cc-28e9-4857-891f-803da1ff0d1f.png)
 
-![](https://cdn.nlark.com/yuque/0/2022/png/26719757/1647583362060-8b85c2e1-bb4d-4ab0-9d2f-260279085466.png?x-oss-process=image%2Fresize%2Cw_328%2Climit_0)
+![](../images/2022/1647583362060-8b85c2e1-bb4d-4ab0-9d2f-260279085466.png?x-oss-process=image%2Fresize%2Cw_328%2Climit_0)
 
-![](https://cdn.nlark.com/yuque/0/2022/gif/26719757/1647583374528-17701966-6200-4872-9c48-ce93d9af5443.gif)
+![](../images/2022/1647583374528-17701966-6200-4872-9c48-ce93d9af5443.gif)
 
 
 

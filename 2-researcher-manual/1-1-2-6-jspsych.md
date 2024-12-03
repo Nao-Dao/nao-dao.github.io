@@ -20,11 +20,11 @@ jsPsych 新手？我们也为你准备了一些学习资源
 
 :::
 
-![](https://cdn.nlark.com/yuque/0/2022/gif/26719757/1647583369836-d0453dbc-0e30-411d-8b7d-74320e391390.gif)
+![](../images/2022/1647583369836-d0453dbc-0e30-411d-8b7d-74320e391390.gif)
 
 双击 jsPsych 节点可以进入编辑
 
-![](https://cdn.nlark.com/yuque/0/2022/png/26719757/1647583369946-48feb58c-dca2-4295-bf9a-9550e5fe5148.png)
+![](../images/2022/1647583369946-48feb58c-dca2-4295-bf9a-9550e5fe5148.png)
 
 ## <font style="color:rgb(51, 51, 51);">允许每个被试打开该实验程序的次数</font>
 <font style="color:rgb(38, 38, 38);"></font>
@@ -61,7 +61,7 @@ jsPsych 新手？我们也为你准备了一些学习资源
   
 </font><font style="color:rgb(38, 38, 38);">在上传实验包之后，用户</font>**<font style="color:rgb(38, 38, 38);">可选</font>**<font style="color:rgb(38, 38, 38);">上传代码解析实验生成的 CSV 数据文件，从而得到一个数值结果。这个结果能在后续的行为分组节点中使用。</font>
 
-![① ② ③ 需要依次上传，上传前一个会出现后一个的选框](https://cdn.nlark.com/yuque/0/2022/png/26719757/1656581275996-340d15ad-6b1d-4d62-b851-165714fd7bb9.png)
+![① ② ③ 需要依次上传，上传前一个会出现后一个的选框](../images/2022/1656581275996-340d15ad-6b1d-4d62-b851-165714fd7bb9.png)
 
 
 
