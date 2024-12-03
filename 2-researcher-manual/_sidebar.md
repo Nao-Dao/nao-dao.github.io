@@ -1,3 +1,5 @@
+- [研究者须知](/2-researcher-manual/0-must-read.md)
+
 - [项目](/2-researcher-manual/1-project.md)
     - [从零开始创建项目](/2-researcher-manual/1-1-start-from-0.md)
 
@@ -25,7 +27,9 @@
 
             - [资源库](/2-researcher-manual/1-1-2-10-resource.md)
 
-        - [发布项目](/2-researcher-manual/1-1-3-publish-project.md)
+        - [测试和发布](/2-researcher-manual/1-1-5-test-project.md)
+            
+            - [发布项目](/2-researcher-manual/1-1-6-publish-project.md)
 
         - [分享项目](/2-researcher-manual/1-1-4-share-project.md)
 

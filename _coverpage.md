@@ -1,7 +1,7 @@
 
 <a href="https://www.naodao.com">![logo](assets/imgs/logo.png)</a>
 
-# 脑岛 <small>3.4.0</small>
+# 脑岛 <small>4.3.0</small>
 
 > 在脑岛，人人都是心理学家
 

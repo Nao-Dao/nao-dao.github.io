@@ -1,0 +1,5 @@
+{
+    "markdown.editor.updateLinksOnPaste.enabled": true,
+    "pasteImage.path": "${currentFileDir}/imgs",
+    
+}
