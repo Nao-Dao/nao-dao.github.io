@@ -1,5 +1,6 @@
-# 主题切换
+# Setting
 
+## Themes
 <div class="demo-theme-preview">
   <a data-theme="vue">Vue</a>
   <a data-theme="buble">Buble</a>
@@ -7,12 +8,20 @@
   <a data-theme="pure">Pure</a>
 </div>
 
+## Language
+<div class="lang">
+  <a data-lang="en" href="/">english</a>
+  <a data-lang="zh" href="/zh/">简体中文</a>
+</div>
+
 <style>
-  .demo-theme-preview a {
+  .demo-theme-preview a,
+  .lang a {
     padding-right: 10px;
   }
 
-  .demo-theme-preview a:hover {
+  .demo-theme-preview a:hover,
+  .lang a:hover {
     cursor: pointer;
     text-decoration: underline;
   }

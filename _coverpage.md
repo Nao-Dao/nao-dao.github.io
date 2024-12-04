@@ -1,12 +1,12 @@
 
 <a href="https://www.naodao.com">![logo](assets/imgs/logo.png)</a>
 
-# 脑岛 <small>4.3.0</small>
+# Naodao <small>4.3.0</small>
 
-> 在脑岛，人人都是心理学家
+> On Naodao, Everyone is a Psychologist
 
-[快速开始](/2-researcher-manual/0-must-read.md)
-[问题反馈](/4-develop/3-feedback.md)
+[Quick Start](/2-researcher-manual/0-must-read.md)
+[Issue Feedback](/4-develop/3-feedback.md)
 
 <!-- background color -->
 
