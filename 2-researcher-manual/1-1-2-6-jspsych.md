@@ -1,72 +1,59 @@
-# jsPsych实验 <!-- {docsify-ignore-all} -->
-jsPsych 是专门服务于在线实验的工具包。使用 jsPsych 至少需要掌握一定的 JavaScript 语法。脑岛提供了对于 jsPsych 7.1 的支持。
+# jsPsych Experiment <!-- {docsify-ignore-all} -->
+jsPsych is a toolkit specifically designed for online experiments. Using jsPsych requires at least a basic understanding of JavaScript syntax. Naodao provides support for jsPsych 7.1.
 
+To save data on Naodao, you need to use the jsPsych extension provided by Naodao. For those who are using jsPsych experiments on Naodao for the first time, are unsure which version they're using, or don't know how to migrate to jsPsych 7, please refer to [this guide](https://forum.naodao.com/postingInfo?id=1507622372663103489).
 
+New to jsPsych? We've prepared some learning resources for you:
 
-:::color2
-在脑岛保存数据需要使用脑岛提供的 jsPsych 扩展，对于第一次在脑岛使用 jsPsych 实验的、不清楚使用了哪个版本，或不知道如何迁移到 jsPsych 7 的，请参阅[这份指南](https://forum.naodao.com/postingInfo?id=1507622372663103489)。
++ [jsPsych Official Documentation](https://www.jspsych.org/7.1/tutorials/hello-world/)（English）
++ [Chinese Translation of jsPsych Official Documentation](https://shaobin-jiang.github.io/jsPsych-Chinese-Documentation/7.1/tutorials/hello-world/)
++ [jsPsych Tutorial Series](https://forum.naodao.com/postingInfo?id=1495710882959986690)
 
-
-
-jsPsych 新手？我们也为你准备了一些学习资源
-
-+ [jsPsych 官方文档](https://www.jspsych.org/7.1/tutorials/hello-world/)（英文）
-+ [jsPsych 官方文档中文翻译](https://shaobin-jiang.github.io/jsPsych-Chinese-Documentation/7.1/tutorials/hello-world/)
-+ [jsPsych 系列教程](https://forum.naodao.com/postingInfo?id=1495710882959986690)
-
-
-
-如果研究者想要在脑岛上采用传统的心理物理学范式，我们建议使用 [jspsych-psychophysics](https://jspsychophysics.hes.kyushu-u.ac.jp/) 插件。脑岛提供了该插件配套的[指导语视频](https://www.naodao.com/public/stim_calibrate.mp4﻿)（感谢上海交通大学张洳源老师和华东师范大学游毓琦贡献的视频资料），以演示的方式指导被试如何校准刺激的视角和视距。有意使用可以在实验中嵌入这个链接 `https://www.naodao.com/public/stim_calibrate.mp4`
-
-:::
+If researchers want to use traditional psychophysics paradigms on Naodao, we recommend using the [jspsych-psychophysics](https://jspsychophysics.hes.kyushu-u.ac.jp/) plugin. Naodao provides an [instruction video](https://www.naodao.com/public/stim_calibrate.mp4) for this plugin (thanks to Professor Zhang Ruyuan from Shanghai Jiao Tong University and You Yuqi from East China Normal University for contributing the video materials), which demonstrates how subjects can calibrate stimulus viewing angle and distance. If you wish to use it, you can embed this link in your experiment: `https://www.naodao.com/public/stim_calibrate.mp4`
 
 ![](../images/2022/1647583369836-d0453dbc-0e30-411d-8b7d-74320e391390.gif)
 
-双击 jsPsych 节点可以进入编辑
+Double-click the jsPsych node to enter editing mode.
 
 ![](../images/2022/1647583369946-48feb58c-dca2-4295-bf9a-9550e5fe5148.png)
 
-## <font style="color:rgb(51, 51, 51);">允许每个被试打开该实验程序的次数</font>
+## <font style="color:rgb(51, 51, 51);">Number of Times Each Subject Can Open the Experiment Program</font>
 <font style="color:rgb(38, 38, 38);"></font>
 
-<font style="color:rgb(38, 38, 38);">您可以设置当前实验的名称以及规定</font>**<font style="color:rgb(38, 38, 38);">允许每个被试打开该实验程序的次数</font>**<font style="color:rgb(38, 38, 38);">。此处的次数限制是指在一个项目中允许被试打开实验的次数，</font>**<font style="color:rgb(38, 38, 38);">只能在一次项目项目作答中起到次数限制的作用</font>**<font style="color:rgb(38, 38, 38);">，与项目级别的控制「</font>[允许用户重复作答](/2-researcher-manual/1-1-6-publish-project.md#作答设置)<font style="color:rgb(51, 51, 51);">」不同</font><font style="color:rgb(38, 38, 38);">。</font>
+You can set the current experiment's name and specify the **number of times each subject is allowed to open the experiment program**. This limit refers to how many times a subject can open the experiment within a single project attempt. **It only functions as a frequency limit within one project response** and is different from the project-level control ["Allow users to repeat responses"](/2-researcher-manual/1-1-6-publish-project.md#作答设置).
 
 <font style="color:rgb(38, 38, 38);"></font>
 
-<font style="color:rgb(38, 38, 38);">例如我们希望被试在一次作答中只能打开一次实验，那么将次数设为</font>`<font style="color:rgb(38, 38, 38);">1</font>`<font style="color:rgb(38, 38, 38);">；但如果您项目发布设置中允许了被试重复参与当前的研究项目，那么被试放弃作答后重新进入这个项目，仍然可以打开这个实验。</font>
+For example, if we want subjects to only open the experiment once during one response session, set the number to `1`. However, if you have enabled subjects to repeatedly participate in the current research project in your project publication settings, subjects can still open this experiment after abandoning their response and re-entering the project.
 
-## 上传文件
+## Upload Files
 
+You need to package your `index.html`, js files, experiment materials, and other additional files into a zip archive and upload it in the jsPsych node.
 
-您需要将 `index.html`、js 文件、实验材料和其余附加文件打包为 zip 压缩包，并在 jsPsych 节点内上传。
-
-
-
-> <font style="color:rgb(38, 38, 38);">脑岛Tips</font>
+> <font style="color:rgb(38, 38, 38);">Tips</font>
 >
-> 1. <font style="color:rgb(38, 38, 38);">HTML 文件命名必须为</font>`<font style="color:rgb(38, 38, 38);">index.html</font>`
-> 2. <font style="color:rgb(38, 38, 38);">注意 jsPsych 的版本及必要的扩展是否添加，太多数情况下引入扩展后不再需要使用</font>`<font style="color:rgb(38, 38, 38);">localSave()</font>`<font style="color:rgb(38, 38, 38);">保存数据</font>
-> 3. 除非脑岛没有提供支持，否则不建议采用将 jsPsych 脚本文件随实验一起上传的方式。如果必须上传，请仅上传必要文件，尤其是不要将官方包中`examples`内的大堆示例一并上传
-> 4. <font style="color:rgb(38, 38, 38);">上传的压缩包中的文件（夹）命名中带有中文或其他非 ASCII 字符可能导致执行出错</font>
-> 5. <font style="color:rgb(38, 38, 38);">请确保上传的压缩包体积小于 100 MB，并且没有数量非常多的子目录或和文件。尽量不要包含多个 html 文件</font>
+> 1. The HTML file must be named `index.html`
+> 2. Pay attention to the jsPsych version and whether necessary extensions are added. In most cases, after adding extensions, you no longer need to use `localSave()` to save data
+> 3. Unless Naodao doesn't provide support, it's not recommended to upload jsPsych script files along with your experiment. If you must upload them, please only upload necessary files, and especially avoid uploading all the examples from the official package's `examples` folder
+> 4. Files (folders) in the uploaded package with names containing Chinese or other non-ASCII characters may cause execution errors
+> 5. Please ensure the uploaded package is less than 100 MB and doesn't contain a very large number of subdirectories or files. Try to avoid including multiple HTML files
 >
 
-### <font style="color:rgb(38, 38, 38);">预览实验</font>
+### <font style="color:rgb(38, 38, 38);">Preview Experiment</font>
 
+After the experiment is uploaded, a [Preview] button will appear on the right side of the **Experiment URL**. You can click this button to preview the uploaded experiment. When the preview ends, the browser will download the data file generated from this preview for inspection.
 
-<font style="color:rgb(38, 38, 38);">当实验上传完成后，在</font>**<font style="color:rgb(38, 38, 38);">实验地址</font>**<font style="color:rgb(38, 38, 38);">右侧会出现一个【预览】的功能按钮，您可点击此按钮预览刚才上传的实验。预览结束后，浏览器会下载本次预览生成的数据文件以供检查。</font>
+## <font style="color:rgb(38, 38, 38);">Experiment Scoring</font>
+<font style="color:rgb(38, 38, 38);">Main entry: </font>[Behavior Grouping](/2-researcher-manual/1-1-2-8-behavior-grouping.md)
 
-## <font style="color:rgb(38, 38, 38);">实验计分</font>
-<font style="color:rgb(38, 38, 38);">主条目：</font>[行为分组](/2-researcher-manual/1-1-2-8-behavior-grouping.md)<font style="color:rgb(38, 38, 38);">  
-  
-</font><font style="color:rgb(38, 38, 38);">在上传实验包之后，用户</font>**<font style="color:rgb(38, 38, 38);">可选</font>**<font style="color:rgb(38, 38, 38);">上传代码解析实验生成的 CSV 数据文件，从而得到一个数值结果。这个结果能在后续的行为分组节点中使用。</font>
+<font style="color:rgb(38, 38, 38);"></font>
 
-![① ② ③ 需要依次上传，上传前一个会出现后一个的选框](../images/2022/1656581275996-340d15ad-6b1d-4d62-b851-165714fd7bb9.png)
+After uploading the experiment package, users can **optionally** upload code to parse the CSV data files generated by the experiment to obtain a numerical result. This result can be used in subsequent behavior grouping nodes.
 
+![①, ②, and ③ need to be uploaded in sequence. The checkbox for the next one will appear after uploading the previous one](../images/2022/1656581275996-340d15ad-6b1d-4d62-b851-165714fd7bb9.png)
 
+## Other Tutorials
+[Guide to Easily Using jsPsych Experiments on Naodao!](https://mp.weixin.qq.com/s/vik0H8ewEIwXeJ4bpyUHOw)
 
-## 其他教程
-[脑岛使用小妙招07丨带你在脑岛轻松使用jspsych实验程序！](https://mp.weixin.qq.com/s/vik0H8ewEIwXeJ4bpyUHOw)
-
-[jsPsych节点_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1g14y147ZT?p=8)
+[jsPsych Node_Bilibili_bilibili](https://www.bilibili.com/video/BV1g14y147ZT?p=8)
 

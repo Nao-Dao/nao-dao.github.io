@@ -1,73 +1,59 @@
-# 行为分组 <!-- {docsify-ignore-all} -->
-<font style="color:rgb(38, 38, 38);">随机分组节点可以依据</font>**前一个节点**的得分<font style="color:rgb(38, 38, 38);">设置分组，为项目的流程建立多个分支。</font>
+# Behavioral Grouping <!-- {docsify-ignore-all} -->
+The behavioral grouping node can establish multiple project branches based on scores from the **previous node**. 
 
 <font style="color:rgb(38, 38, 38);"></font>
 
-<font style="color:rgb(38, 38, 38);">如下图的示例，行为分组节点的前一个节点必须是具有得分的节点类型（支持问卷、实验类型）。行为分组能够根据被试在问卷的得分决定被试将要走向哪个分支。</font>
+<font style="color:rgb(38, 38, 38);">As shown in the example below, the node preceding behavioral grouping must be a node type that generates scores (supports questionnaires and experiments). Behavioral grouping can determine which branch a participant follows based on their questionnaire scores.</font>
 
 ![](../images/2022/1649314243725-3ab808a4-ba5a-405e-bcd5-0a00585e433d.png)
 
-> <font style="color:rgb(38, 38, 38);">分组后产生的分支无法再合并，即整个项目必须是树状结构</font>
+> Note: <font style="color:rgb(38, 38, 38);">Branches created after grouping cannot be merged, meaning the entire project must maintain a tree structure</font>
 >
 
-## 问卷得分
+## Questionnaire Scoring
 
-
-在问卷节点中，单选题、李克特题、矩阵单选题三种类型的题目可以设置分数。
+In questionnaire nodes, three types of questions can be scored: single-choice, Likert-scale, and matrix single-choice questions.
 
 ![](../images/2022/1656155581803-bb5fa54a-b740-4866-8408-29b32bf14945.png)
 
-将行为分组节点直接接在问卷节点后时，双击行为分组节点打开分组设置界面，就可以勾选问卷节点的计分题目，并得到选择的题目之分数范围。
+When placing a behavioral grouping node directly after a questionnaire node, double-click the behavioral grouping node to open the grouping settings interface. Here you can select scoring questions from the questionnaire node and obtain their score ranges.
 
 ![](../images/2022/1649170016378-26c16bc8-8c28-4eb1-9a9d-d940734ee015.png)![](../images/2022/1649170550409-b4cbe915-02eb-4caa-8fbb-157b4943a61b.png)
 
-## 实验计分
+## Experiment Scoring
+
+Experiment type nodes (currently supporting PsychoPy and jsPsych) can analyze each participant's data file online during response and generate a numerical result as the experiment node's score.
+
+After **uploading the experiment package**, you can upload a Python script file (**analysis code**). This script should contain a function called `handler` that takes the data file (CSV) generated after experiment completion as a parameter. After code analysis, it should return an `int` or `float` value, which serves as the experiment node's score.
 
 
-实验类型节点（目前支持 PsychoPy 和 jsPsych）支持作答中在线分析每个被试产生的数据文件，并得到一个数值结果作为实验节点的得分。
+The Python code runs in Python 3.6 environment, with access to `numpy`, `scipy`, `pandas`, `sklearn`, and their dependencies. Detailed information about the `handler` function's parameters and return values can be found in the node template.
 
+![① ② ③ Need to be uploaded in sequence, the next checkbox appears after uploading the previous one](../images/2022/1656158078427-75dc81dc-f6ef-4098-9ba1-cdc61684d470.png)
 
+Experiment nodes without analysis code have a score of `0`. After uploading analysis code, researchers still need to **define possible score ranges** and **verify the analysis code's validity**. Verification requires uploading a sample CSV data file for the experiment (obtainable through preview; note that PsychoPy online and offline data files differ, **please write analysis code based on online data files**). After uploading the sample data file, the system will attempt to run the analysis code with that CSV as input parameter; verification passes if a valid return value is obtained.
 
-在**上传了实验包后**，可以继续上传一个 Python 脚本文件（**分析代码**），该脚本应该包含一个名为 `handler`的函数，函数接收完成实验后产生的数据文件 (CSV) 作为参数，在经过代码分析后，应该返回一个 `int`或 `float`类型的数值，该数值即作为实验节点的分数。
-
-
-
-:::color1
-运行 Python 代码的环境为 Python 3.6，可导入`numpy` `scipy``pandas``sklearn`及其依赖包。`handler`函数的参数和返回值详细情况可以在节点中的模板内查看。
-
-:::
-
-![① ② ③ 需要依次上传，上传前一个会出现后一个的选框](../images/2022/1656158078427-75dc81dc-f6ef-4098-9ba1-cdc61684d470.png)
-
-没有上传分析代码的实验节点分数为`0`．上传分析代码后，研究者仍然需要**自行定义可能的分数区间**以及**验证分析代码的有效性**，验证有效性需要上传一个实验对应的示例 CSV 数据文件（可以通过预览获得，特别注意 PsychoPy 线上、线下的数据文件有所差距，**请以线上数据文件为对象编写分析代码**），上传示例数据文件后，系统会以该 CSV 为输入参数尝试运行一遍分析代码，得到合法的返回值则验证通过。
-
-
-
-> 上传文件的文件名如果包含空格或中文（等其他非 ASCII 字符）可能导致验证出错
+> Upload verification may fail if filenames contain spaces or non-ASCII characters (including Chinese characters)
 >
 
 ![](../images/2022/1656160979246-1b67996e-1b20-4f2c-b8f1-7069df7d5c5e.png)![](../images/2022/1656161576342-6fb890ea-0bcd-40e0-bff0-56ae6c89365d.png)
 
-## 根据分数设置分组
+## Setting Groups Based on Scores
+Once the previous node has valid scores, behavioral grouping can assign participants to different groups based on these scores. 
 
-
-在前一个节点有了合法的分数后，行为分组可以根据该得分将被试分配至不同分组。以问卷设置行为分组为例
+Here's an example using questionnaire-based behavioral grouping:
 
 ![](../images/2022/1649171243514-8c20aea0-c807-4128-a8f5-013eea5efc77.png)
 
-> 分组的分数区间可以不连续，得分没有落在指定区间的被试都会被分配至**<font style="color:#FA541C;">默认分组</font>**
+> Score ranges for groups can be discontinuous. Participants with scores not falling within specified ranges will be assigned to the **<font style="color:#FA541C;">default group</font>**
 >
 
-
-
-如果更改了前一个节点的内容，则后方的行为分组会失效，需要重新分组、连线。
+If the content of the previous node is modified, subsequent behavioral grouping becomes invalid and requires regrouping and reconnecting.
 
 ![](../images/2022/1649169845908-3d795485-c323-492c-9314-7c52c90ab595.png)
 
-
-
 ## 其他教程
-[脑岛使用小妙招09丨带你轻松掌握行为分组节点](https://mp.weixin.qq.com/s/mClgFJ2WhynXXnwXhQytUw)
+[Master Behavioral Grouping Nodes Easily](https://mp.weixin.qq.com/s/mClgFJ2WhynXXnwXhQytUw)
 
-[行为分组_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1g14y147ZT?p=10)
+[Behavioral Grouping_Bilibili_bilibili](https://www.bilibili.com/video/BV1g14y147ZT?p=10)
 

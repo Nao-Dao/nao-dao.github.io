@@ -1,1 +1,1 @@
-- [主题切换](/5-setting/#主题切换)
+- [Switch Theme](/5-setting/#主题切换)

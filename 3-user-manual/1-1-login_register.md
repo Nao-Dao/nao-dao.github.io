@@ -1,56 +1,52 @@
-# 注册与登录 <!-- {docsify-ignore-all} -->
+# Registration and Login <!-- {docsify-ignore-all} -->
 
-## 注册
+## Registration
 
-<!-- Hello，这里是脑岛，专注于提供优质心理实验的平台，本期视频我们将介绍如何注册和登录脑岛平台。 -->
+When first entering NaoDao, you can click the registration button in the top right corner of the homepage to enter the registration page.
 
-首次进入脑岛后，可点击网站首页右上方的注册按钮进入注册页面。
+New users are automatically registered as testers. To become a researcher, you need to apply for additional certification.
 
-新用户注册脑岛自动成为测试者，要成为研究者需要进行而外认证申请。
+Testers can only complete tasks and earn compensation on NaoDao, but cannot publish their own projects. Researchers have both tester privileges (completing tasks and earning compensation) and can also publish their own experimental tasks and collect data on NaoDao.
 
-测试者仅可以在脑岛答题、赚取报酬，而无法在脑岛发布自己的项目。研究者则不仅具备测试者的身份，可以在脑岛答题并获取报酬，而且还可以在脑岛发布自己的实验任务、收集数据。
+### Registration Steps
 
-### 注册步骤
+Before registering, you'll need a Chinese phone number.
 
-在注册之前，你需要准备一个国内的手机号。
+1. Enter your phone number and click "Get Verification Code"
+2. Enter the verification code you received in the "Verification Code" field
+3. Enter your desired password in the "Password" field. We recommend using a unique password, which will not be stored in plain text. The password must follow these rules:
+   1. No Chinese characters or spaces allowed
+   2. Length must be 6-16 characters
+   3. Must contain at least 2 types of characters from: letters, numbers, and symbols
 
-1. 填入【手机号】，并点击【获取验证码】按钮
-2. 在【验证码】输入你所获取的验证码
-3. 在【密码】中输入你需要设置的密码，推荐使用不常用的密码，所使用的密码我们不会进行明文保存。密码需要进行以下规则：
-   1. 不允许有中文、空格
-   2. 长度为6-16个字符
-   3. 字母、数字、符号至少包含2种
+After completing these steps, you'll need to read the "Privacy Policy" and "User Service Agreement" at the bottom. Click on them to open in separate pages. After reading, close the popup pages. If you accept the "Privacy Policy" and "User Service Agreement", manually check "I Acknowledge" and click "Register Now". At this point, you've successfully created your account on the NaoDao platform.
 
-当你完成以上步骤后，还需要阅读底部的【隐私保密政策】和【用户服务协议】，点击它们即可跳转到独立页面，并进行阅读，当你阅读完毕后可以关闭所弹出的页面，若你接受【隐私保密政策】和【用户服务协议】，请手动勾上【我已知晓】，然后点击【立即注册】，至此，你成功在脑岛平台创建了属于自己的账号。
+> If you need to become a researcher, please refer to [Certification Methods](/2-researcher-manual/4-personal.md#个人资料)
 
-> 如果你需要成为研究者，请参考[认证方式](/2-researcher-manual/4-personal.md#个人资料)
+## Login
 
-## 登录
+After registration, you can click the login button at the top of the homepage to open the login page.
 
-当你完成注册后，可点击网站首页上方的登录按钮打开登录页面。
+### Password Login
 
-### 密码登录
+When you enter the login page, password login is the default method.
 
-当你进入登录页面，默认采用密码登录。
+The login account is the phone number you provided during registration (NaoDao currently only supports phone number login).
 
-<!-- 登录账号为你在注册时填写的手机号码（脑岛目前仅支持以手机号作为登录账号登录，你既可以使用手机号+密码登录，也可以实时获取动态验证码登录）。 -->
+### Verification Code Login
 
-登录账号为你在注册时填写的手机号码（脑岛目前仅支持手机号码登录）。
+You can log in using a dynamic verification code sent to your phone number. Enter your phone number, request a verification code, then enter the code to log in.
 
-### 验证码登录
+### WeChat Login
 
-可以通过手机号获取动态验证码进行登录。 需要填入手机号，然后获取验证码，再输入验证码后即可登录。
+You can also log in using WeChat.
 
-### 微信登录
+Before using WeChat login, you need to follow the "NaoDao Research" WeChat official account and bind your NaoDao account in the official account. Then you can log in by scanning the QR code.
 
-还可以采用微信登录
+### Team Account Login
 
-进行微信登录之前，需要先关注 脑岛科研 微信公众号，并在公众号绑定自己的脑岛账户，即可进行扫码登录。
+This is a special NaoDao account type that cannot be registered independently. It requires allocation from a main account to obtain the username and password.
 
-### 团队账户登录
+You can click "Other Login Methods" under the platform login and select "Team Account Login", then enter the account credentials to log in successfully.
 
-这是脑岛的特殊账户，不允许自行进行注册，需要一个主账户进行分配后，获取账号和密码。
-
-你可点击登录平台下【其它登录方式】选择【团队账户登录】，然后在页面输入账号和密码即可成功登录。
-
-> 【脑岛Tips】出于安全方面的考虑，脑岛科研平台的登录状态只能维持7天。如果您退出脑岛后未能在7天内再次进入脑岛，则平台会自动登出您的账号。
+> [NaoDao Tip] For security reasons, the login status on the NaoDao Research platform only lasts for 7 days. If you don't access NaoDao within 7 days after logging out, the platform will automatically log out your account.

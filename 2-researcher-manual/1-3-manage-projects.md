@@ -1,35 +1,33 @@
 
-## 项目管理 <!-- {docsify-ignore-all} -->
-在项目界面可以对已有的项目进行管理。
+## Project Management <!-- {docsify-ignore-all} -->
+
+You can manage existing projects on the project interface.
 
 ![](../images/2022/1653905707367-be30ceea-c29c-4da7-b51a-07c54fdfaf28.png)
 
-## 项目总览
-### 名称
+## Project Overview
+### Name
 
+As you can see, this is the **project name** you set when creating the project.
 
-如您所见，就是您在创建项目时设置的**项目名称**。
-
-### 状态
-| 项目状态 | 状态说明 |
+### Status
+| Project Status | Description |
 | :---: | :--- |
-| 未发布 | 处于编辑状态中，尚未发布的项目 |
-| 发布中 | 已经发布的项目 |
-| 已完成 | 项目已收集到预期的数据，项目结束 |
-| 已取消 | 研究者主动取消了已经发布的项目 |
+| Unpublished | Projects in editing state that haven't been published yet |
+| Published | Projects that have been published |
+| Completed | Projects that have collected the expected data and ended |
+| Cancelled | Published projects that were actively cancelled by researchers |
 
 
-### 发布类型
-| 发布类型 | 发布类型说明 |
+### Publication Type
+| Publication Type | Description |
 | :---: | :--- |
-| 官网 | 项目发布在脑岛官网的答题赚钱版本，所有脑岛用户均可见 |
-| 匿名 | 匿名发布，只会生成匿名链接，除发布者外其他用户不可见 |
+| Official Website | Projects published on Naodao's official paid survey version, visible to all Naodao users |
+| Anonymous | Anonymous publishing, generates only anonymous links, invisible to users other than publisher |
 
 
-### 匿名链接
-
-
-只有匿名发布的项目才会生成一个对应的匿名链接，您可以点击【复制链接】按钮获取属于特定匿名项目的项目链接。您可以将该链接发给指定的被试，被试在浏览器中打开该链接即可开始作答。
+### Anonymous Link
+Only anonymously published projects generate a corresponding anonymous link. You can click the [Copy Link] button to get the project link specific to an anonymous project. You can share this link with designated participants who can start answering by opening the link in their browser.
 
 ![](../images/2022/1647583374879-12a27277-30a9-4cf3-8842-3d06ba326b68.png)
 
@@ -37,73 +35,49 @@
 
 ![](../images/2022/1647583374961-12c1113b-92a8-4d12-a133-9000b0ee9927.gif)
 
-### 参与人数
+### Number of Participants
+The **number of participants** for a project refers to the total number of participants who have **ever entered the project**.
 
-
-一个项目的**参与人数**是指，所有**进入过该项目**的被试总人数。
-
-
-
-这个指标的统计标准是非常宽泛的，任何点击该项目的**开始**按钮的被试都被认为是参与过该项目。因此您可以想到的是，并非所有的参与者都会完整地做完项目且正常提交数据，同时也不是所有正常提交数据的参与者都是认真地作答题目。所以一个项目的**参与人数**总是<font style="color:#FFA940;">大于或等于</font>一个项目的**有效数量**。
+This metric uses very broad statistical criteria - any participant who clicks the **start** button for the project is considered to have participated. Therefore, as you can imagine, not all participants will complete the project and submit data normally, and not all participants who submit data normally will answer questions seriously. So a project's **number of participants** is always <font style="color:#FFA940;">greater than or equal to</font> the project's **valid count**.
 
 ![](../images/2022/1647583375118-36fe739e-1563-410e-8180-180101dfed13.png)
 
-### 有效数量
+### Valid Count
+A project's **valid count** refers to the number of accepted data records. When a project's **valid count** equals its **total**, the system determines the project is completed.
 
-
-一个项目的**有效数量**是指，被采纳的数据记录的数量。当项目的**有效数量**等于项目的**总数**时，系统就会判定项目已完成。
-
-
-
-> 【脑岛Tips】尽管我们希望一个项目的**有效数量**等同于**参与人数**，也就意味着每一个参与项目的被试都能认真作答且作答数据没有被研究者拒绝。但实际上这种情况是很少的，总是会存在一些被试中途退出导致没有数据或没有认真作答导致数据质量很差的情况。因此一个项目的**参与人数**大于**有效数量**是一件非常正常的事情。
+> 【Tips】Although we hope a project's **valid count** equals its **number of participants**, meaning every participant answers seriously and their data isn't rejected by researchers, this rarely happens in practice. There will always be some participants who quit midway resulting in no data, or who don't answer seriously resulting in poor quality data. Therefore, it's very normal for a project's **number of participants** to exceed its **valid count**.
 >
 
-### 总数
-
-
-一个项目的**总数**就是您在发布项目时设置的**发布数量**
+### Total
+A project's **total** is the **publication quantity** you set when publishing the project
 
 ![](../images/2022/1647583372856-167b76d4-61c0-445c-9571-fdf31f35fd4c.png)
 
-### 项目说明
-
-
-即您在创建项目时设置的**项目介绍**
+### Project Description
+This is the **project introduction** you set when creating the project
 
 ![](../images/2022/1647583375202-9f0f58a9-921a-4a65-ba95-d83f5293ea71.png)
 
-## 项目操作
+## Project Operations
 ![](../images/2022/1647583375278-783ac098-220d-41a3-91e7-3a9496d22d23.png)
 
-### 编辑
+### Edit
+Click the [Edit] button to enter the canvas and edit the project again. Note that projects with **Published** or **Cancelled** status cannot be edited again - you cannot make any modifications after entering the canvas for these types of projects.
 
+### Share
+Click the [Share] button to share nodes in the project to personal or platform resource libraries, as well as share with designated researchers.
 
-点击【编辑】按钮进入画布，可对项目进行再次编辑。需要说明的是，【状态】为**已发布**和**已取消**的项目不能再次进行编辑，即进入此类项目的画布后无法进行任何修改。
-
-### 分享
-
-
-点击【分享】按钮可将该项目中的节点分享至个人或平台资源库，以及分享给指定研究员。
-
-
-
-> 【脑岛Tips】项目分享功能暂不支持分享整个项目，目前只能分享节点。
+> 【Tips】Project sharing currently doesn't support sharing entire projects, only nodes can be shared.
 >
 
-### 删除
+### Delete
+Click the [Delete] button to delete a project. Projects with **Published** status cannot be deleted, and any project with even one answer record cannot be deleted.
 
-
-点击【删除】按钮可删除某个项目。【状态】为**发布中**的项目无法删除，同时只要某个项目存在一条作答记录也无法删除。
-
-
-
-> 【脑岛Tips】脑岛暂不支持**回收站**功能，因此项目一旦删除就无法恢复，请慎重！
+> 【Tips】Naodao currently doesn't support **Recycle Bin** functionality, so projects cannot be recovered once deleted - please be careful!
 >
 
-### 下载数据
-
-
-您可以点击【下载数据】按钮进入项目数据下载页面。
+### Download Data
+You can click the [Download Data] button to enter the project data download page.
 
 ![](../images/2022/1647583375354-ce390526-5933-4d6d-aec3-3372fddf2d63.png)
 
@@ -111,31 +85,29 @@
 
 ![](../images/2022/1647583375429-24557335-2b92-4ae3-9e1f-b18d161e759c.png)
 
-### 设置分类
-
-
-您可点击【设置分类】按钮将项目分类到不同的组别。
+### Set Category
+You can click the [Set Category] button to categorize projects into different groups.
 
 ![](../images/2022/1647583376256-563f9c1d-7a33-47bb-acf3-97c8c733d46b.gif)
 
-## <font style="color:rgb(38, 38, 38);">项目分类</font>
-### <font style="color:rgb(38, 38, 38);">新建分类</font>
+## <font style="color:rgb(38, 38, 38);">Project Classification</font>
+### <font style="color:rgb(38, 38, 38);">Create New Category</font>
 
 
-<font style="color:rgb(38, 38, 38);">您可通过【新建分类】按钮创建新的项目分类。</font>
+<font style="color:rgb(38, 38, 38);">You can create new project categories using the [Create New Category] button.</font>
 
 ![](../images/2022/1647583374276-2084cc69-201d-494f-b318-d1ae6e4f6186.gif)
 
-### <font style="color:rgb(38, 38, 38);">编辑分类</font>
+### <font style="color:rgb(38, 38, 38);">Edit Category</font>
 <font style="color:rgb(38, 38, 38);">  
-</font><font style="color:rgb(38, 38, 38);">您可通过【编辑分类】按钮对创建的分类进行</font>**<font style="color:rgb(38, 38, 38);">重命名</font>**<font style="color:rgb(38, 38, 38);">和</font>**<font style="color:rgb(38, 38, 38);">删除</font>**<font style="color:rgb(38, 38, 38);">。</font>
+
+You can use the [Edit Category] button to **rename** and **delete** created categories.
 
 ![](../images/2022/1647583374367-e0799766-7a1e-4ba8-abc2-a7438a3522ab.gif)
 
-## <font style="color:rgb(38, 38, 38);">查询项目</font>
+## <font style="color:rgb(38, 38, 38);">Search Projects</font>
 
-
-<font style="color:rgb(38, 38, 38);">您可在【查询】左侧的文本框中输入</font>**<font style="color:rgb(38, 38, 38);">项目名称</font>**<font style="color:rgb(38, 38, 38);">，并通过【查询】按钮查找特定的项目。</font>
+You can enter the **project name** in the text box to the left of [Search] and use the [Search] button to find specific projects.
 
 ![](../images/2022/1647583374449-ae39b1cc-28e9-4857-891f-803da1ff0d1f.png)
 
@@ -143,10 +115,8 @@
 
 ![](../images/2022/1647583374528-17701966-6200-4872-9c48-ce93d9af5443.gif)
 
+## Other Tutorials
+[Master Project Management Easily](https://mp.weixin.qq.com/s/jjS1J3uVRkWS71wRosSdRw)
 
-
-## 其他教程
-[脑岛使用小妙招16丨教你轻松掌握项目管理](https://mp.weixin.qq.com/s/jjS1J3uVRkWS71wRosSdRw)
-
-[项目管理_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1g14y147ZT?p=17)
+[Project Management_Bilibili](https://www.bilibili.com/video/BV1g14y147ZT?p=17)
 

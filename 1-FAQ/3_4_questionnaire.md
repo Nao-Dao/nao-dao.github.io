@@ -1,10 +1,10 @@
-# 问卷节点 <!-- {docsify-ignore-all} -->
+# Questionnaire Node <!-- {docsify-ignore-all} -->
 
-## 问卷目前支持哪些题型？
-问卷系统目前支持绝大多数常见题型，包括单选、多选、矩阵量表
+## What question types are currently supported in the questionnaire system?
+The questionnaire system currently supports most common question types, including single choice, multiple choice, and matrix scales.
 
-## 问卷能导入别的平台的问卷吗？
+## Can questionnaires be imported from other platforms?
 
-很抱歉，目前脑岛的问卷节点暂不支持导入其它平台的问卷，需要手动测试。
+Unfortunately, the Naodao questionnaire node currently does not support importing questionnaires from other platforms. Manual testing is required.
 
-如有需要，可以通过脑岛的`批量添加`，以文本的形式快速编写问卷。
+If needed, you can use Naodao's `Batch Add` feature to quickly create questionnaires in text format.

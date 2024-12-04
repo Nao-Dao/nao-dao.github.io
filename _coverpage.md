@@ -5,8 +5,8 @@
 
 > 在脑岛，人人都是心理学家
 
-[快速开始](#视频教程)
-[问题反馈](develop/feedback.md)
+[快速开始](/2-researcher-manual/0-must-read.md)
+[问题反馈](/4-develop/3-feedback.md)
 
 <!-- background color -->
 

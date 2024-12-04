@@ -1,81 +1,78 @@
-# 在线研究速答
+ # Online Research Quick Answers
 
-## Q：我没有在线研究的经历，我该从哪里入手？  
-  A：我们有一篇关于在线研究十分详尽的综述，请阅读以了解更多在线研究的注意事项和最佳实践。同时我们十分欢迎研究人员在自己的作品中引用该文献。 
-  > 陈国球，高晓雪，鄢忻媛，杜梦，臧寅垠，汪寅. (2023). 在线心理学何以本土化？基于历史、理念与综合性的分析. 心理科学, 46(5), 1262–1271. https://doi.org/10.16719/j.cnki.1671-6981.20230529
-  > Chen, G., Gao, X., Yan, X., Du, M., Zang, Y., & Wang, Y. (2023). Online research in psychology and its future in China. Journal of Psychological Science, 46(5), 1262–1271. https://doi.org/10.16719/j.cnki.1671-6981.20230529
+## Q: I have no experience with online research. Where should I start?  
+A: We have a comprehensive review article about online research. Please read it to learn more about considerations and best practices for online research. We welcome researchers to cite this paper in their work.
+> Chen, G., Gao, X., Yan, X., Du, M., Zang, Y., & Wang, Y. (2023). Online research in psychology and its future in China. Journal of Psychological Science, 46(5), 1262–1271. https://doi.org/10.16719/j.cnki.1671-6981.20230529
 
-## Q：什么是在线心理学研究？  
-  A：宽泛来说，在线心理学研究指的一些基于互联网的心理学研究。更具体地说，在脑岛上，在线心理学研究指运用**在线问卷**和**在线实验**两种手段，通过互联网被试库招募被试收集数据，进行的心理学或相关科学研究。 
+## Q: What is online psychological research?  
+A: Broadly speaking, online psychological research refers to psychological research conducted via the internet. More specifically, on NaoDao, online psychological research refers to psychological or related scientific research conducted using **online questionnaires** and **online experiments** to recruit participants through internet subject pools and collect data.
 
-## Q：相比于传统的心理学研究，在线心理学研究有何优势？  
-  A：在线心理学研究不仅能够专门研究互联网环境下人们的心理状态，更有助于降低研究的时间、金钱和人力成本，降低主试偏差，提高样本容量和代表性（从而增加统计检验力，更易显著）。 
+## Q: Compared to traditional psychological research, what are the advantages of online psychological research?  
+A: Online psychological research not only enables specific study of people's psychological states in internet environments but also helps reduce time, money, and human resource costs, reduces experimenter bias, and increases sample size and representativeness (thereby increasing statistical power and making significance easier to achieve).
 
-## Q: 在线研究可以完全取代线下研究吗？  
-  A: 需要分情况讨论。线上量表替代线下的纸笔测验已经十分成熟，并被广为接受；而更复杂的在线实验，则需要根据研究目的和实验要求判断是否适合，总体而言，在线实验无法完全代替实验室实验。研究者应该根据实际情况选择合适的研究手段。 
+## Q: Can online research completely replace offline research?  
+A: This needs to be discussed case by case. Online questionnaires replacing offline paper-and-pencil tests is quite mature and widely accepted. However, for more complex online experiments, suitability must be judged based on research purposes and experimental requirements. Overall, online experiments cannot completely replace laboratory experiments. Researchers should choose appropriate research methods based on actual circumstances.
 
-## Q: 什么样的实验不适合线上进行？  
-  A：如果实验需要精准控制、特定设备或非视听刺激（如触觉）、记录生理数据（如脑电、磁共振）等，抑或是实验的流程 / 刺激涉及保密，这些情况下的实验不应该或无法该在线进行。
+## Q: What kinds of experiments are not suitable for online conduct?  
+A: Experiments should not or cannot be conducted online if they require precise control, specific equipment or non-audiovisual stimuli (like tactile), physiological data recording (like EEG, MRI), or if the experimental procedures/stimuli involve confidentiality.
 
-## Q: 在线实验有哪些注意事项？  
-  A：在线实验进行中主试通常不在被试身边，因此需要和线下相比需要一些额外的做法，包括并不限于：  
-    - 务必进行完整测试，确保分发给被试的程序能够正常作答；  
-    - 正式实验前确认被试身份的有效和独立，避免因为欺诈或恶意重复作答导致的损失；  
-    - 在程序上使用更强的控制，包括限制被试作答设备、提供可操作性更强的指导语、准备练习阶段并判断练习阶段正确率等；  
-    - 考虑设备差异，可以使用相对指标和进行刺激矫正等抵消设备差异带来的变异；  
-    - 尽量让被试报告作答时的环境。   
+## Q: What are the considerations for online experiments?  
+A: Since experimenters are usually not present with participants during online experiments, some additional practices compared to offline experiments are needed, including but not limited to:
+    - Must conduct complete testing to ensure the program given to participants can be completed normally
+    - Verify participant identity validity and independence before formal experiments to avoid losses due to fraud or malicious repeated responses
+    - Use stronger controls in the program, including limiting participant devices, providing more operational instructions, preparing practice phases and judging practice phase accuracy
+    - Consider device differences, can use relative indicators and stimulus correction to offset variations from device differences
+    - Have participants report their environment when responding
 
-## Q：使用在线实验前，我需要有一定的编程基础吗？  
-  A：不一定，脑岛提供了三种实验编写方式：
-    - 简单云无须编程
-    - PsychoPy需要编程以实现一些高级控制
-    - jsPsych目前仅支持纯编程  
+## Q: Do I need programming basics before using online experiments?  
+A: Not necessarily. NaoDao provides three ways to write experiments:
+    - Simple Cloud requires no programming
+    - PsychoPy needs programming for some advanced controls
+    - jsPsych currently only supports pure programming
 
-  通常来说，在线实验与线下实验的编程难度基本相当，但使用的编程语言不尽相同。您可以根据自己实验的需求来进行相应的选择。 
+Generally, online experiments have similar programming difficulty to offline experiments but use different programming languages. You can make your choice based on your experimental needs.
 
-# 脑岛平台概述
+# NaoDao Platform Overview
 
-## Q: 使用了脑岛科研平台，应该如何引用脑岛？  
-  A: 我们鼓励脑岛的用户在相关的作品中引用脑岛。脑岛目前可被引用的文献如下 
-  > 陈国球，高晓雪，鄢忻媛，杜梦，臧寅垠，汪寅. (2022). *在线心理学研究的历史、现状和展望*. ChinaXiv. http://chinaxiv.org/abs/202206.00150
-  >
-  > Chen, G., Gao, X., Yan, X., Du, M., Zang, Y., & Wang, Y. (2022). *Online research in psychology: The past, present and future*. ChinaXiv. http://chinaxiv.org/abs/202206.00150
+## Q: How should I cite NaoDao when using the research platform?  
+A: We encourage NaoDao users to cite us in related work. NaoDao's current citable literature is:
+> Chen, G., Gao, X., Yan, X., Du, M., Zang, Y., & Wang, Y. (2022). *Online research in psychology: The past, present and future*. ChinaXiv. http://chinaxiv.org/abs/202206.00150
 
-## Q：脑岛平台在在线研究方面有何优势？  
-  A：作为研究者，您能够从研究设计、数据收集、质量控制、科研成果的传播与转化、教学与科普等多环节中感受到脑岛资源整合模式所带来的便捷与高效。此外，心理学或相关专业学生还能用于教学任务或科研训练。 
+## Q: What are the advantages of the NaoDao platform for online research?  
+A: As a researcher, you can experience the convenience and efficiency brought by NaoDao's resource integration model in multiple aspects including research design, data collection, quality control, dissemination and transformation of research results, teaching and science popularization. Additionally, psychology or related major students can use it for teaching tasks or research training.
 
-## Q: 在脑岛平台实现在线研究的流程是怎样的？  
-  A：注册成为脑岛用户后，如果想进行研究而非作答，需要在导航栏上进入研究者平台。认证成为研究者后，即可使用研究者最核心的功能——项目推进研究。一般需要经历以下步骤：
-    - 在项目中编辑好实验、问卷等内容；
-    - 发布项目；
-    - 等待被试作答并支付报酬，支付的渠道会根据发布的选择有所不同；
-    - 完成或主动取消项目。 
+## Q: What is the process for conducting online research on the NaoDao platform?  
+A: After registering as a NaoDao user, if you want to conduct research rather than respond, you need to enter the researcher platform from the navigation bar. After being certified as a researcher, you can use researchers' core function - projects to advance research. Generally need to go through these steps:
+    - Edit experiments, questionnaires and other content in projects
+    - Publish projects
+    - Wait for participant responses and pay compensation, payment channels will vary based on publication choices
+    - Complete or actively cancel projects
 
-## Q: 申请研究者认证需要多长时间通过？  
-  A：平台目前支持 2 种认证方式，
-    - 使用教育邮箱认证，在填写正确的验证码之后即通过认证；
-    - 上传资料认证，该通道为人工审核，速度稍慢，通常在 48 h 内出审核结果。请注意上传能够证明研究者身份并能够识别个人信息的材料，以免审核不通过造成的重新提交和等待。 
+## Q: How long does it take to get researcher certification approved?  
+A: The platform currently supports 2 certification methods:
+    - Certification using educational email, passes certification after entering correct verification code
+    - Upload materials certification, this channel is manually reviewed, slightly slower, usually results within 48 hours. Please note to upload materials that can prove researcher identity and identify personal information to avoid resubmission and waiting due to failed review
 
-## Q：脑岛平台的项目有哪些发布方式？  
-  A：在脑岛提供了 2 种发布方式
-    - 使用「脑岛平台」发布，项目将显示在脑岛的网站上，可以使用脑岛的被试库，通过脑岛收集数据、支付被试费、进一步追踪被试等；
-    - 使用「匿名作答」发布，研究者需要自行寻找被试、分发项目，脑岛仅收集数据和保存数据。适用于收集那些不方便或不愿意注册脑岛的被试数据。
+## Q: What are the publication methods for NaoDao platform projects?  
+A: NaoDao provides 2 publication methods:
+    - Publish using "NaoDao Platform", project will display on NaoDao website, can use NaoDao's subject pool, collect data through NaoDao, pay participant fees, further track participants, etc.
+    - Publish using "Anonymous Response", researchers need to find participants and distribute projects themselves, NaoDao only collects and stores data. Suitable for collecting data from participants who cannot or do not want to register with NaoDao
 
-## Q: 脑岛平台会使用我的数据吗？  
-  A: 由您的账户收集到的数据使用权归您所有。我们将遵循相关法律法规对您的数据进行保护，未经许可不会使用您收集到的数据。您的用户数据使用可以查看平台的《用户协议》和《隐私政策》。  
+## Q: Will the NaoDao platform use my data?  
+A: The right to use data collected by your account belongs to you. We will protect your data following relevant laws and regulations and will not use your collected data without permission. You can check the platform's "User Agreement" and "Privacy Policy" for user data usage.
 
-## Q: 被试能用手机作答吗？  
-  A: 我们支持通过移动设备打开、作答适配的项目。但需要注意，被试实际上作答的内容（尤其是实验类型）基本上由研究者提供，被试能否在移动端有效作答实验完全取决于实验的编写，而大部分实验不适宜在移动端作答，请务必**预先测试**。 
+## Q: Can participants respond using phones?  
+A: We support opening and responding to adapted projects through mobile devices. However, note that the actual content participants respond to (especially experimental types) is basically provided by researchers, whether participants can effectively respond to experiments on mobile depends entirely on experiment writing, and most experiments are not suitable for mobile response, please **test in advance**.
 
-## Q: 脑岛平台的功能可以支持哪些实验设计？  
-  A: 目前脑岛可以帮助研究者实现： 
-  - [x] 被试内、被试间设计
-  - [x] 指定被试群体参与
-  - [x] 长程被试追踪
-  - [ ] 多人实验（开发中）
+## Q: What experimental designs can NaoDao platform functions support?  
+A: Currently NaoDao can help researchers implement:
+  - [x] Within-subjects, between-subjects designs
+  - [x] Specified participant group participation
+  - [x] Long-term participant tracking
+  - [ ] Multi-person experiments (in development)
 
-## Q：脑岛平台支持从中国境外访问、收集数据吗？  
-  A：脑岛主要面对国内的研究者与被试群体，并且使用了国内的阿里云服务器，我们不对境外访问的稳定性做出任何保证。若存在类似需求，请预先进行测试。
+## Q: Does the NaoDao platform support access and data collection from outside mainland China?  
+A: NaoDao mainly faces domestic researchers and participant groups, and uses domestic Alibaba Cloud servers. We make no guarantees about stability of overseas access. If you have such needs, please test in advance.
 
-## Q：我需要帮助，脑岛提供了哪些支持系统？  
-  A：对于实验编写节点和其他使用问题，我们在论坛里专门配置了相关板块，目前每个板块都由该节点的主要创建者或能够熟练使用的科研人员来进行维护；我们极其欢迎您在阅读完相应的发帖格式与规范后发帖提问。我们最为推荐您在论坛上发帖，但我们也提供了其他一对一的渠道，包括「脑岛科研平台」公众号留言、微信客服、research@naodao.com 发邮件等。 
+## Q: I need help, what support systems does NaoDao provide?  
+A: For experimental writing nodes and other usage questions, we have specially configured relevant sections in the forum, currently each section is maintained by the node's main creator or research personnel who can skillfully use it; we highly welcome you to post questions after reading the corresponding posting format and specifications. We most recommend posting on the forum, but we also provide other one-on-one channels, including leaving messages on the "NaoDao Research Platform" public account, WeChat customer service, sending emails to research@naodao.com, etc.

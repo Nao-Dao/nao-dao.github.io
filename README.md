@@ -1,5 +1,5 @@
-# 脑岛
+# Naodao
 
-我们是国内首个全能在线实验制作和数据收集平台
+We are China's first comprehensive online platform for experiment creation and data collection.
 
-打开www.naodao.com，完成“注册”，点击“研究者平台”，免费开始你的在线研究之旅！
+Visit www.naodao.com, complete "registration", click "Researcher Platform", and start your online research journey for free!

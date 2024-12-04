@@ -1,71 +1,49 @@
-# 在脑岛，大脑健身了解一下？
+# NaoDao: How About a Mental Workout?
 
-![](imgs/readme/%E9%A6%96%E9%A1%B5banner.png)
+This summer seems unusually hot compared to previous years, so please take proper precautions when exercising outdoors. When it's not suitable to go out for activities, staying at home is a good choice. But have you ever thought about getting a mental workout without leaving your house? Friend, why not check out the NaoDao platform?
 
-今年夏天似乎不同往年地格外炎热，进行户外运动请务必做好防护。在不宜外出运动、游玩的时候，宅家也是不错的选择。不过，你有没有想过足不出户，也能来一次大脑健身？朋友，脑岛平台了解一下不？
+NaoDao is where the general public meets researchers. For us, NaoDao is a place to earn some pocket money in our spare time while contributing to scientific research. Moreover, using NaoDao allows you to assess your psychological state and learn about psychology. How can you resist such a great opportunity? Let's see how to use NaoDao.
 
-脑岛平台是普通大众与科研人员交汇的地方。而对于我们而言，脑岛是个闲暇时间赚点零花钱，顺便为科学研究做出贡献的地方；不仅如此，使用脑岛还能测测自己的心理状态，看看心理学知识等等。这种好事还不火速安排？接下来我们一起看看这样的脑岛要如何使用吧。
+## Starting with Registration
 
-## 从注册开始
+You can register and log in using your phone number, follow NaoDao's official WeChat account for quick login, and conveniently withdraw funds directly to WeChat.
 
-使用手机号即可登录注册，关注脑岛公众号，快捷登录，直接提现到微信等便利功能。
+After registration, please complete your basic information in the personal center, as many features won't be available without this step!
 
-![](imgs/readme/reg.gif)
+Speaking of NaoDao's features, the platform's core function must be its projects! We can see projects throughout different sections of NaoDao.
 
-注册后请完善个人中心的基本信息，不然很多功能是无法使用的哦～
+NaoDao's projects are divided into two sections: "Earn Money by Answering" and "Free Self-Assessment."
 
-![](imgs/readme/profile.png)
+## Earn Money by Answering
 
-说到脑岛的功能，脑岛平台最核心的功能，那必须是项目！我们能在脑岛的各个地方看见项目的身影。
+Find paid projects through multiple entry points. All projects are transparently priced *for everyone*. These well-compensated projects are all posted by researchers from across the country (known as "researchers" on NaoDao), so availability can vary significantly. When you see an interesting project, act quickly to avoid missing the opportunity.
 
-![](imgs/readme/project.gif)
+After entering a project, you can continue answering after reading and agreeing to the "Informed Consent Form."
 
-脑岛的项目又分为两个版块，即「答题赚钱」和「免费自测」。
+Projects vary in content and difficulty - some projects may be primarily questionnaires that you can fill out based on your actual situation; some might be experiments testing your visual and mental abilities as challenging as a driver's license test; and some combine both. But every project is carefully designed, and compensation usually correlates with time investment. Answering truthfully is best; you don't need to pursue a perfect score.
 
-## 答题赚钱
+Let's demonstrate the experiment answering process. Note that experiments open in a browser pop-up window - after completing the experiment, you'll need to manually close the tab if it doesn't close automatically.
 
-从多个入口找到答题赚钱的项目。所有项目都明码标价*童叟无欺*。这些提供丰厚报酬的项目，全部是由来自全国各地的科研人员（在脑岛被称为「研究者」）发布的，因此也会存在较大变动，看见感兴趣的可要先下手为强，不要让机会溜走了。
+After completing the entire project, the researcher who posted it will review your results. Once approved, you'll receive your compensation!
 
-![](imgs/readme/money_enter.gif)
+Why are researchers spending money on NaoDao? This is actually a win-win model - researchers can collect their desired data through NaoDao, while we receive compensation, and in the broader sense, we're contributing to scientific progress! Therefore, you can feel free to earn this "wool" from researchers on NaoDao (🐑: Let me say, thank you)
 
-点击进入一个项目，阅读并同意《知情同意书》后就可以继续作答了。
+However, researchers have their own research purposes, and both researchers and the platform certainly hope that our responses are serious and responsible, as this will attract more researchers and provide more projects for us to choose from. So please promise me - read the instructions carefully before answering and ensure quality responses. Don't become the type of participant who leaves nothing behind. The platform will take appropriate measures against those with malicious intentions.
 
-![](imgs/readme/enter_project.gif)
+The earned compensation will be deposited into your account balance, and you can withdraw it when it reaches the specified amount. Look, now comes the exciting moment...
 
-项目的内容和难度存在一定的差异，有的项目主要内容可能是问卷，按照实际情况填写即可；有的可能是实验，考验眼力脑力难如考驾照；还有的两者兼具。但每一个项目一定都是经过设计的，报酬通常也与时间成正比。按照真实情况作答是最好的，不是必须要追求满分。
+## Free Self-Assessment
 
-这里我们演示一下作答实验的流程。需要注意实验在浏览器弹出的标签页进行，完成实验后如果没有自动关闭，则需要手段关闭标签页。
+Are you still obsessed with MBTI? Psychologists shake their heads at this. There are too many unreliable tests in the market, thriving on ambiguous descriptions and professional marketing tactics, with psychological tests being particularly problematic. Unfortunately, professional and reliable psychological knowledge often goes unnoticed.
 
-![](imgs/readme/exp_pop_win.gif)
+We believe that rigor and interest are not mutually exclusive - this is what Free Self-Assessment aims to do. The research teams behind NaoDao are university researchers with psychology backgrounds who continuously select engaging assessments for free self-testing while ensuring professionalism.
 
-![](imgs/readme/finish_project.gif)
+After completing each free self-assessment test, a "Brain Report" will be generated, usually including scores and corresponding interpretations. We can review previous responses in the Personal Center - Test Records, analyze our score curves, or share scores with friends or even doctors.
 
-在完成了整个项目后，发布项目的研究者会对你的结果进行审查。审查通过后就能得到对应的报酬啦！
+Most importantly, all of this is free!
 
-研究者为什么要在脑岛撒钱 币 呢？这其实是一种共赢的模式，研究者能通过脑岛收集到想要的数据，而我们也能拿到报酬，更长远的意义上还能推动科学进步！因此在脑岛大可放心地薅研究者的这份「羊毛」（🐑：听我说，谢谢你）
+## Psychological Knowledge
 
-不过研究者也有自己的科研目的，无论是研究者还是平台，一定都希望我们的作答是认真、负责的，这样才能吸引更多的研究者，有更多的项目项目供我们选择。因此答应我好吗，作答之前一定仔细阅读说明、保证作答质量，可不能变成所到之处寸草不生的那类羊毛党。对于心术不正的羊毛党，平台也会有相应措施降下制裁。
+Psychology education is also one of NaoDao's goals. In this age of complex information where truth is hard to distinguish from fiction, maintaining professionalism and rejecting pseudoscience are NaoDao's principles for science popularization. The psychology knowledge section contains premium content written or selected by professional psychology researchers. Whether you're a psychology beginner or a member of the general public interested in psychology, you can obtain reliable, professional popular science knowledge here.
 
-获得的报酬会存入账户的余额，到达指定金额可以提现。看，接下来就是激动人心的时刻……
-
-![](imgs/readme/transfer.gif)
-
-## 免费自测
-
-你还在沉迷 MBTI？心理学家看了直摇头。市面上有太多不靠谱的测试，借着模棱两可的描述和专业的营销手段大行其道，心理学测试更是其中的重灾区。可惜的是，专业可靠的心理学知识往往无人问津。
-
-我们相信严谨与有趣绝对不冲突，这就是免费自测想要做的。脑岛背后的科研团队都是心理学背景的高校研究员，在保证专业性的大前提下，会持续挑选生动有趣的测评进入免费自测。
-
-![](imgs/readme/free.gif)
-
-每次完成免费自测的测试以后，将为这次测试生成一份「大脑报告」，通常包含了分数及相应的解读。我们可以在个人中心 — 测试记录内回顾历次作答，分析自己的得分曲线，或者将得分分享给朋友甚至医生。
-
-最重要的是，这一切都是免费的！
-
-## 心理知识
-
-心理学科普同样是脑岛的目标之一。在信息庞杂，难辨真伪的这个时代，保证专业性，拒绝伪科学是脑岛坚持的科普原则。心理知识版块均为专业的心理学研究者之手写作或筛选的精品内容。相信无论是初学心理学的小白，还是对心理学感兴趣的大众，都能从这里获得可靠、专业的科普知识。
-
-![](imgs/readme/knowledge.png)
-
-在脑岛，人人都是心理学家。未来的心理学家，要不要现在加入我们？
+At NaoDao, everyone is a psychologist. Future psychologist, would you like to join us now?

@@ -3,15 +3,14 @@
 #blacktowhite:hover { cursor: pointer; text-decoration: underline; } 
 </style>
 
+* [FAQ](/1-FAQ/)
 
-* [常见问题](/1-FAQ/)
+* [Researcher Manual](/2-researcher-manual/)
 
-* [研究者操作手册](/2-researcher-manual/)
+* [Platform User Manual](/3-user-manual/)
 
-* [平台操作手册](/3-user-manual/)
+* [Simple Cloud](/6-simple-cloud/)
 
-* [简单云](/6-simple-cloud/)
+* [Development Log](/4-develop/)
 
-* [开发日志](/4-develop/)
-
-* [设置](/5-setting/)
+* [Settings](/5-setting/)

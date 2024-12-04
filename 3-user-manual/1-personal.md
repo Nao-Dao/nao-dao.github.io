@@ -1,48 +1,48 @@
-# 个人中心 <!-- {docsify-ignore-all} -->
+# Personal Center <!-- {docsify-ignore-all} -->
 
 ![](imgs/image-20220301121557098.png)
 
 ![](imgs/image-20220301123740757.png)
 
-## 基本信息
-您可以在【基本信息】版块填写您的邮箱、出生日期、性别等个人信息，脑岛将会对您的个人信息严格保密。
+## Basic Information
+You can fill in your personal information such as email, date of birth, and gender in the "Basic Information" section. NaoDao will keep your personal information strictly confidential.
 
 ![](imgs/image-20220301124627619.png)
 
-## 账户安全
+## Account Security
 
-为了提升您的账户安全，脑岛建议您在【账户安全】版块完善您的账号信息，包括绑定您的微信和支付宝账号，以及实名认证，脑岛会对您的私密信息严格保密。
+To enhance your account security, NaoDao recommends completing your account information in the "Account Security" section, including binding your WeChat and Alipay accounts, and real-name verification. NaoDao will keep your private information strictly confidential.
 
-> 【脑岛Tips】脑岛强烈建议您进行实名认证，脑岛会对您的身份信息进行严格保密。用户若不进行实名认证，则无法使用脑岛论坛等一系列功能。
+> [NaoDao Tip] NaoDao strongly recommends completing real-name verification. Your identity information will be kept strictly confidential. Without real-name verification, users cannot access certain features like the NaoDao forum.
 
 ![](imgs/image-20220301125737674.png)
 
-?> 【脑岛Tips】绑定支付宝和微信是否会存在风险？
+?> [NaoDao Tip] Is there any risk in binding Alipay and WeChat?
 >
-> 先说结论：没有风险。
+> Short answer: No risk.
 >
-> 理由：微信和支付宝没有提供获取用户敏感信息的开放API，这些敏感信息包含：支付宝账号、真实姓名、银行卡信息等，因此脑岛不仅不会去收集用户的这些信息也无法收集到这些信息，脑岛仅仅是收集用户微信和支付宝的昵称和头像信息。
+> Explanation: WeChat and Alipay do not provide open APIs to access users' sensitive information, including Alipay account numbers, real names, bank card information, etc. Therefore, NaoDao not only doesn't collect this user information but is unable to collect it. NaoDao only collects users' WeChat and Alipay nicknames and profile pictures.
 
-## 账户信息
-您可以在【账户信息】版块中查看您的账户余额以及提现方式等。脑岛平台最小提现金额为10元，单笔提现最高金额为500元。需要注意的是，您必须通过实名认证后才能进行提现。
+## Account Information
+You can view your account balance and withdrawal methods in the "Account Information" section. The minimum withdrawal amount on NaoDao is 10 yuan, with a maximum single withdrawal of 500 yuan. Note that you must complete real-name verification before making withdrawals.
 
-> 【脑岛Tips】脑岛暂不支持提现到微信，目前只支持提现到支付宝。
+> [NaoDao Tip] NaoDao currently only supports withdrawals to Alipay, not WeChat.
 
 ![](imgs/image-20220301132326201.png)
 
-## 消息中心
-您可以在【消息中心】查看您作为被试参与的每个项目的实验记录是否被项目发布者所采纳。
+## Message Center
+In the "Message Center", you can check whether your experimental records as a participant have been accepted by the project publishers.
 
 ![](imgs/image-20220301132457457.png)
 
-## 测试记录
-您可以在【测试记录】中查看您过往的测试记录。
-* 答题赚钱一栏可以查看您的答题赚钱报酬是否到账
-* 免费自测一栏可以查看您的免费自测记录和对应的大脑报告
+## Test Records
+You can view your past test records in the "Test Records" section.
+* The "Paid Tasks" column shows whether your compensation has been credited
+* The "Free Self-Test" column shows your free self-test records and corresponding brain reports
 
 ![](imgs/image-20220301134743104.png)
 
-## 申诉反馈
-您可以在【申诉反馈】版块查看您的申诉记录。
+## Appeals and Feedback
+You can view your appeal records in the "Appeals and Feedback" section.
 
 ![](imgs/image-20220301134915799.png)

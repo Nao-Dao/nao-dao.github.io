@@ -1,10 +1,10 @@
-# 问卷节点 <!-- {docsify-ignore-all} -->
-[脑岛使用小妙招06丨快速掌握问卷制作](https://mp.weixin.qq.com/s/oDAG0d8gqY6vE-_FRvO17w)
+# Questionnaire Node <!-- {docsify-ignore-all} -->
+[Quick Guide to Creating Questionnaires](https://mp.weixin.qq.com/s/oDAG0d8gqY6vE-_FRvO17w)
 
-[问卷使用_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1g14y147ZT?p=5)
+[How to Use Questionnaires_bilibili](https://www.bilibili.com/video/BV1g14y147ZT?p=5)
 
-## 以往内容
-> 以下内容大部分已过时
+## Previous Content
+> Most of the following content is outdated
 >
 
 <font style="color:rgb(38, 38, 38);"></font>
@@ -15,43 +15,43 @@
 
 ![](../images/2022/1647583365604-3971b7d7-12d8-4ac5-abb5-ccb5d6e665c2.png)
 
-您可以通过【节点信息】按钮修改当前节点的基本信息（节点名称、节点提示）。
+You can modify the basic information of the current node (node name, node prompt) through the [Node Information] button.
 
 ![](../images/2022/1647583365746-10b3286a-33f1-46a2-9d2f-391c95a07e9e.png)
 
-您可以在页面左侧的【题型选择】栏中选择常见的题型。您可以将【题型选择】栏中的题型通过_**鼠标点击按中并拖动**_这一动作进入到页面中间的**题目预览区域**中。
+You can select common question types from the [Question Type Selection] panel on the left side of the page. You can add question types from the [Question Type Selection] panel to the **question preview area** in the middle of the page by **clicking and dragging with your mouse**.
 
 ![](../images/2022/1647583365837-755f8db2-18ed-491e-b635-fe7a26a84ad5.gif)
 
-当您在**题目预览区域**中添加题目后，可以在右侧的【设置】栏中对**单个题目**进行编辑。
+After adding questions to the **question preview area**, you can edit **individual questions** in the [Settings] panel on the right.
 
 ![](../images/2022/1647583366061-801df376-bffb-4d23-9b7e-d78705875c66.png)
 
-##### 必答题设置
-_**是否必答题**_：您可以通过【*是否必答题】来设置某一道题是否必须被作答。
+##### Required Question Settings
+_**Required Question**_: You can use [*Required Question] to set whether a question must be answered.
 
 ![](../images/2022/1647583366143-b4b4265f-539b-4d2c-b8b1-debea842298d.png)
 
-##### 编辑题号
-_**题号**_：您可以在【*题号】里修改每道题的题号。正常情况下，平台会为题目预览区域中的每道题生成一个默认题号。当您自行修改某一道题的题号后，平台会根据新的题号**自动更新**所有题目的排序位置。
+##### Edit Question Number
+_**Question Number**_: You can modify the question number for each question in [*Question Number]. Under normal circumstances, the platform will generate a default question number for each question in the question preview area. When you manually modify a question's number, the platform will **automatically update** the sorting position of all questions based on the new number.
 
 ![](../images/2022/1647583366224-577408b4-ead2-497e-abfc-5ec21a1a831b.gif)
 
-此外，当您在**题目预览区域**中直接拖动修改题目的排序位置时，平台也会自动修改题号。
+Additionally, when you directly drag to modify the sorting position of questions in the **question preview area**, the platform will automatically update the question numbers.
 
 ![](../images/2022/1647583366304-31c81230-b8d5-449e-b1ca-8cd99b27f419.gif)
 
-##### 编辑题干
-_**题目或标题**_：您可以在【*题目或标题】里修改每道题的**题干**，题干的编辑支持富文本格式。
+ ##### Edit Question Text
+_**Question or Title**_: You can modify the **question text** of each question in [*Question or Title]. Question text editing supports rich text format.
 
 ![](../images/2022/1647583366394-9c4891b1-a91e-41a4-8649-b8f305cc069a.gif)
 
-##### 编辑选项
-_**选项与得分**_：您可以在【*选项与得分】里添加题目的选项。
+##### Edit Options
+_**Options and Scores**_: You can add question options in [*Options and Scores].
 
 ![](../images/2022/1647583366483-230d13c9-ccd7-4c51-a6b8-64f2514159ed.gif)
 
-您可通过【批量新增】功能批量增加选项。
+You can use the [Batch Add] function to add multiple options at once.
 
 ![](../images/2022/1647583366644-666c4fa1-8982-4357-9fbf-887cfdd47ab3.png)
 
@@ -59,36 +59,36 @@ _**选项与得分**_：您可以在【*选项与得分】里添加题目的选�
 
 ![](../images/2022/1647583366774-190ab2dc-5272-4136-927c-231172990d8e.png)
 
-点击【新增选项】添加新的选项。
+Click [Add Option] to add new options.
 
 ![](../images/2022/1647583366870-d19d373a-b9c5-4d81-a2b3-db9c07c1f9cf.gif)
 
-您也可以通过【操作】功能来编辑选项的具体内容。【操作】功能中提供**富文本编辑器**，可以对选项内容进行富文本编辑。
+You can also edit the specific content of options through the [Operations] function. The [Operations] function provides a **rich text editor** for formatting option content.
 
 ![](../images/2022/1647583366953-ddad79e1-c0c9-4ca0-b048-a623a81fd09b.png)
 
-##### 错题验证
-您可以为题目设置【错题验证】功能：在题目**选项**的**操作**栏中点击【错题验证】，即可将当前选项设置为_**错题验证选项**_。
+##### Wrong Answer Verification
+You can set up [Wrong Answer Verification] for questions: Click [Wrong Answer Verification] in the **operations** column of the question **options** to set the current option as a _**wrong answer verification option**_.
 
 ![](../images/2022/1647583367044-2fc6c73d-155e-460f-9f34-0d461ddff0b4.png)
 
-需要说明的是，【错题验证】功能是针对题目**选项**的操作，也就是说，您只能针对题目的选项(_**一个或多个选项**_)进行错题验证设置。以下图为例，我们对选项A进行错题验证设置，这意味着如果被试在作答这道题的时候选择了选项A，那么就代表着被试做错了这道题，此时被试的错题数就会+1。
+It's important to note that the [Wrong Answer Verification] function operates on question **options**, which means you can only set wrong answer verification for (_**one or more options**_) of the question. For example, if we set wrong answer verification for option A, it means that if the test taker selects option A when answering this question, it indicates they answered incorrectly, and their wrong answer count will +1.
 
 ![](../images/2022/1647583367120-3ac6ed6e-4d29-431c-860c-1d8d458f27b9.gif)
 
-> 【脑岛Tips】脑岛目前只支持为**<u>单选题</u>**、**<u>下拉单选</u>**和**<u>矩阵单选题</u>**设置错题验证。
+> 【Tips】NaoDao currently only supports wrong answer verification for **<u>single-choice questions</u>**, **<u>dropdown single-choice</u>** and **<u>matrix single-choice questions</u>**.
 >
 
-##### 显示逻辑
-_**显示此问题**_：您可以通过【*显示此问题】设置题目的**显示逻辑**。
+##### Display Logic
+_**Show this Question**_: You can set the question's **display logic** through [*Show this Question].
 
 ![](../images/2022/1647583367224-a895be2c-1103-4b0e-b380-e6e18bf35e72.png)
 
-所谓**显示此问题**是指在符合某些条件时显示这道题。因此想要为某一道题设置**显示逻辑**，必须要满足这道题的前面**至少有一道题**。
+**Show this Question** means displaying this question when certain conditions are met. Therefore, to set **display logic** for a question, there must be **at least one question** before it.
 
-如下所示，如果要为第3道题设置显示逻辑，那么可以选择根据第1道题和第2道题进行判断。具体来说，您可以选择根据某一道题的某一个选项进行判断。
+As shown below, if you want to set display logic for Question 3, you can choose to make judgments based on Questions 1 and 2. Specifically, you can choose to make judgments based on a particular option of a specific question.
 
-> 【脑岛Tips】图文说明题暂不支持设置显示逻辑，该功能正在开发中，敬请期待！
+> 【Tips】Text and image explanation questions currently do not support display logic settings. This feature is under development, stay tuned!
 >
 
 ![](../images/2022/1647583367313-23bc2c1c-4de7-4b76-807b-6c484c15f220.png)
@@ -99,9 +99,15 @@ _**显示此问题**_：您可以通过【*显示此问题】设置题目的**�
 
 ![](../images/2022/1647583362060-8b85c2e1-bb4d-4ab0-9d2f-260279085466.png)
 
-![](../images/2022/1647583367475-7391976f-4b76-4760-864b-12cf0d3cc084.png)***已选定*** 表示当被试选定特定题目的特定选项*（此例中为选项1）*时才会显示第3题。![](../images/2022/1647583367579-cc504b99-297f-43da-97e3-56c396c30e41.gif)***未选定*** 表示当被试没有选定特定题目的特定选项时才会显示第3题*（此例中选定选项1不会显示第3题，选定选项2才会显示第3题）*。![](../images/2022/1647583367662-e3204209-cbe8-4863-9bf5-633a210c5fc0.gif)
+![](../images/2022/1647583367475-7391976f-4b76-4760-864b-12cf0d3cc084.png)
 
-同时，除了上述的单一判断条件外，脑岛也允许您设置**多个条件联合判断**。您可点击【显示逻辑】弹框中的”+“号新增判断条件。
+***Selected*** means Question 3 will only be displayed when the test taker selects specific options of specific questions *(in this example, Option 1)*. 
+![](../images/2022/1647583367579-cc504b99-297f-43da-97e3-56c396c30e41.gif)
+
+***Not Selected*** means Question 3 will only be displayed when the test taker has not selected specific options *(in this example, selecting Option 1 won't display Question 3, but selecting Option 2 will display Question 3)*.
+![](../images/2022/1647583367662-e3204209-cbe8-4863-9bf5-633a210c5fc0.gif)
+
+In addition to the above single judgment conditions, Naodao also allows you to set **multiple condition joint judgments**. You can click the "+" button in the [Display Logic] popup to add judgment conditions.
 
 ![](../images/2022/1647583367741-ac6ec3e2-2be1-4fff-9fd5-229f6aacd972.png)
 
@@ -109,54 +115,58 @@ _**显示此问题**_：您可以通过【*显示此问题】设置题目的**�
 
 ![](../images/2022/1647583367824-4e3a5ca3-d2ff-48ae-abaf-45a21082a785.gif)
 
-##### 跳转逻辑
-_**从此题跳至**_：您可以通过【*从此题跳至】设置题目的**跳转逻辑**。
+##### Skip Logic
+_**Skip to**_: You can set the question's **skip logic** through [*Skip to].
 
 ![](../images/2022/1647583367923-46f5543a-66cf-4f38-904a-2e99e7cd82eb.png)
 
-所谓**从此题跳至**顾名思义是指在符合某些条件时跳转到特定的题目。目前脑岛只支持**向后跳转**，也就是说只能从前面的题目跳转到后面的题目，不可以从后面的题目跳转到前面的题目。因此想要为某一道题设置**跳转逻辑**，必须保证这道题的后面还有其他题目。
+**Skip to** means jumping to specific questions when certain conditions are met. Currently, Naodao only supports **forward skipping**, meaning you can only skip from previous questions to later questions, not from later questions to previous ones. Therefore, to set **skip logic** for a question, there must be other questions after it.
 
-此外需要注意的是，**只有当目标跳转到的题目和跳转依据题处于不同分页的时候，跳转逻辑才能生效**。也就是说，如果您希望被试选择第1题的选项1后，能够直接跳转到第3题，那么必须保证第1题和第3题不在同一页上。
+Additionally, note that **skip logic only works when the target question and the skip source question are on different pages**. This means if you want test takers to skip directly to Question 3 after selecting Option 1 of Question 1, Question 1 and Question 3 must not be on the same page.
 
 ![](../images/2022/1647583368009-2914d6d8-20ee-486e-858e-d7e5bb024c14.png)![](../images/2022/1647583368095-3f6fe351-fe4a-4863-97cf-a6428713078d.png)
 
 ![](../images/2022/1647583362060-8b85c2e1-bb4d-4ab0-9d2f-260279085466.png)
 
-如下所示，第1道题可以跳转到第2、3道题，第2道题可以跳转到第3道题，而第3道题无法设置**跳转逻辑**，因为第3道题已经是最后一道题了。当您将第1题的**跳转逻辑**设置为从第1题跳转到第3题时，第2题将被自动跳过。
+As shown below, Question 1 can skip to Questions 2 and 3, Question 2 can skip to Question 3, while Question 3 cannot set **skip logic** because it's the last question. When you set Question 1's **skip logic** to skip to Question 3, Question 2 will be automatically skipped.
 
 ![](../images/2022/1647583368233-18b0a4ec-dc02-482d-a67c-569bd5680b29.png)
 
-如下所示，例如我们为第1道题设置**跳转逻辑**，我们可以选择根据第1题的某一个选项进行判断。
+For example, when setting **skip logic** for Question 1, we can choose to make judgments based on one of its options.
 
 ![](../images/2022/1647583368315-17db0c58-7a9a-4b4e-b7d1-da6acb62dca0.png)
 
 ![](../images/2022/1647583362060-8b85c2e1-bb4d-4ab0-9d2f-260279085466.png)
 
-![](../images/2022/1647583368402-2b00320a-e3eb-4f4c-b6d0-dbab426c11a2.png)**已选定**表示当被试选定特定题目的特定选项*（此例中为选项1）*时才会跳转到目标题目*（此例中为第3题）*。![](../images/2022/1647583368482-fa8ab4ce-230d-4ecb-b693-6d973ac55d4c.gif)**未选定**表示当被试没有选定特定题目的特定选项时才会跳转到目标题目*（此例中选定选项1不会跳转到第3题，选定选项2才会跳转到第3题）*。![](../images/2022/1647583368568-7e335ab6-da07-4663-b57d-f411392affeb.gif)
+![](../images/2022/1647583368402-2b00320a-e3eb-4f4c-b6d0-dbab426c11a2.png)**Selected** means it will only skip to the target question when the test taker selects specific options of specific questions *(in this example, Option 1 leads to Question 3)*.
+![](../images/2022/1647583368482-fa8ab4ce-230d-4ecb-b693-6d973ac55d4c.gif)
 
-**脑岛目前仅支持单一条件跳转判断，尚不支持多条件联合跳转判断。**
+**Not Selected** means it will only skip to the target question when the test taker has not selected specific options *(in this example, selecting Option 1 won't skip to Question 3, but selecting Option 2 will skip to Question 3)*.
+![](../images/2022/1647583368568-7e335ab6-da07-4663-b57d-f411392affeb.gif)
 
-##### 插入新题
-您新增题目的方式，除了从左侧【题型选择】栏中往**题目预览区域**中拖入题目外，还可以在**题目预览区域**中通过每一道题右下方的【插入新题】按钮新增题目。画布默认将新题插入到当前题目的下一题。
+**Naodao currently only supports single condition skip logic and does not support multiple condition joint skip logic.**
+
+##### Insert New Question
+In addition to dragging questions from the [Question Type Selection] panel on the left into the **question preview area**, you can also add new questions through the [Insert New Question] button at the bottom right of each question in the **question preview area**. By default, the canvas will insert the new question after the current question.
 
 ![](../images/2022/1647583368654-5800da7e-8740-4ead-a0a3-4ff651641b31.png)
 
-##### 更换题型
-您可以通过题目右下方的【更换题型】按钮更改当前题目的类型。
+##### Change Question Type
+You can change the type of the current question using the [Change Question Type] button at the bottom right of the question.
 
 ![](../images/2022/1647583368758-736f3c3d-c226-4302-b5ea-b729fcad83ad.png)
 
-##### 批量添加
-如果您希望批量添加题目，可以通过页面右上方的【批量添加】按钮批量导入题目。
+##### Batch Add
+If you want to add multiple questions at once, you can batch import questions using the [Batch Add] button in the upper right corner of the page.
 
 ![](../images/2022/1647583368837-b8e5852e-ba38-48f6-a975-0ab1d07544a7.png)
 
-脑岛目前仅支持从txt文本文件批量导入题目，您可点击 **?** 按钮查看不同类型题目的导入文本排版方式。
+Naodao currently only supports batch importing questions from txt text files. You can click the **?** button to view the text formatting requirements for different types of questions.
 
 ![](../images/2022/1647583368919-6ae9b73a-3e9c-4996-8b08-374ca6013987.png)
 
-您可以将排版后的txt文件复制粘贴到**文本内容输入框**中，或者通过【从文件上传】按钮导入txt文件。
+You can copy and paste the formatted txt file into the **text content input box**, or import the txt file using the [Upload from File] button.
 
 ![](../images/2022/1647583369007-b4ca9c70-7c7b-4778-9801-d93f509ccdc8.gif)
 
-## 
+

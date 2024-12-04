@@ -1,37 +1,37 @@
 # PsychoPy <!-- {docsify-ignore-all} -->
 
-> 更多请在[Github Issue](https://github.com/psychopy/psychopy/issues)查看
+> For more information, please check [Github Issues](https://github.com/psychopy/psychopy/issues)
 
-> 截至日期 2022/10/01
+> Updated as of 2022/10/01
 
-## 变量获取不到
+## Variable Not Accessible
 
-不要擅自使用 `var a` 这个方式来命名变量，psychopy会自动加的，不需要担心初始化的问题。
+Don't arbitrarily use `var a` to name variables - PsychoPy will add them automatically. No need to worry about initialization.
 
-## 让被试进行指定试次数
+## Setting Specific Number of Trials for Participants
 
-只需要在loop的设置窗口中的selected rows输入框输入 `0:n` 就可以让被试一个循环进行n个试次了，多个位置用`,`分隔。
+Simply enter `0:n` in the selected rows input box in the loop settings window to have participants complete n trials in one loop. Multiple positions can be separated by commas `,`.
 
-## 如何让被试选择slider后仍然可以做调整
+## Allowing Participants to Adjust Slider After Selection
 
-第一步，添加一个button，也可以是其他的反应内容。出现条件改为condition，里面填入`$show_button`
+Step 1: Add a button or other response element. Change the appearance condition to "condition" and enter `$show_button`
 
-第二步，添加一个code，在begin routine添加`show_button = False`，
+Step 2: Add a code component, and in begin routine add `show_button = False`
 
-第三步，在code的each frame添加如下代码：
+Step 3: In the code's each frame, add the following code:
 ```python
-# 手动将None转换为undefined（而非null）
+# Manually convert None to undefined (not null)
 show_button = slider.getRating() is not None
 # print(slider.getRating())
 if show_button:
-    text.text = slider.getRating() # 将评分呈现出来
+    text.text = slider.getRating() # Display the rating
 ```
 
-## textbox 居中问题
+## Textbox Centering Issue
 
-线下暂未研究过，预计得从pygame入手。
+For offline experiments, this hasn't been fully investigated yet - likely needs to be addressed through pygame.
 
-线上需要加一个 code组件，code type 调整为 both。然后在右边添加如下代码：
+For online experiments, add a code component, set code type to both. Then add the following code:
 ```javascript
 $("textarea").css({
 display: "block",
@@ -44,63 +44,62 @@ $("textarea").height() / 4
 $("textarea").focus();
 ```
 
-`$("textarea").height() / 4` 这个是用来实现水平居中的，可以是 / 2，因为我看 / 4 的效果不是很好。
+`$("textarea").height() / 4` is used for horizontal centering. You can use / 2 instead, as / 4 may not give ideal results.
 
+## Unable to Input Content After Textbox Component
 
-## textbox组件之后无法输入内容
+In version 2021.2.3, there's a bug with the textbox. You need to manually add JavaScript code to make the text box visible.
 
-在2021.2.3的版本中，textbox有bug来着。需要手动加个js代码让文本框显示出来～
-
-也就是需要加一个 code组件，code type 调整为 both。然后在右边添加如下代码：
+Add a code component, set code type to both, and add the following code:
 ```javascript
 $("textarea").css("display", "block");
 
 $("textarea").focus();
 ```
 
-## 如何检测被试按压一个键不松开
+## How to Detect Key Press Without Release
 
-首先需要在build页面加入一个code组件和keyboard组件。
+First, add a code component and keyboard component in the build page.
 
-在code组件中添加如下代码：
+Add the following code to the code component:
 ```python
 pressed_keys = show_stimuli_keyboard.getKeys(waitRelease=False, clear=False)
 
 if len(pressed_keys) > 0:
-    this_key = pressed_keys[len(pressed_keys)-1] # 获取按压键的最后一个键
+    this_key = pressed_keys[len(pressed_keys)-1] # Get the last pressed key
     if not this_key.duration:
-        # 如果按压了某个键
+        # If a key is pressed
     else:
-        # 按压结束后
+        # After key release
 ```
 
-`show_stimuli_keyboard` 是 keyboard的名称
+`show_stimuli_keyboard` is the name of the keyboard component
 
-## 视频播放出错
+## Video Playback Error
 
-请确保视频文件能够在浏览器中打开并播放。
+Please ensure the video file can be opened and played in a browser.
 
-!> AbortError: The play() request was interrupted by a callto pause().
+!> AbortError: The play() request was interrupted by a call to pause().
 
-[详细参考这篇帖子](https://forum.naodao.com/postingInfo?id=1555137945563041793)
+[See this post for detailed reference](https://forum.naodao.com/postingInfo?id=1555137945563041793)
 
-## 线下正常，线上未报错，不过不符合实验逻辑
+## Works Offline but Not Following Experiment Logic Online
 
-- 情况1:
+- Case 1:
 
-在循环中，使用code组件在begin experiment对时间线变量进行重定义。删除重定义即可。比如，xlsx有`cc`列，在循环中将`cc=0`加到组件中，则在调用的时候，无论xlsx给的是什么，程序获取到的都是`0`这个值。
+In a loop, using a code component to redefine timeline variables in begin experiment. Remove the redefinition to fix. For example, if xlsx has a `cc` column, and you add `cc=0` to the component in the loop, the program will always get the value `0` regardless of what's in the xlsx.
 
-## psychopy 2021.2.3 polygon组件显示圆形出错
+## Polygon Component Circle Display Error in PsychoPy 2021.2.3
 
-用builder的话，就改用regular shape，并且调成999（即正999边形，即圆）
+When using the builder, switch to regular shape and set it to 999 (i.e., a 999-sided polygon, effectively a circle)
 
-## 被试没有做完实验，但也需要上传数据
+## Uploading Data for Incomplete Experiments
 
-如果你想保存部分数据，但前提是参与者完成了最小量的实验（例如100个trials），可以添加`PsychoJS._config.experiment.saveIncompleteResults = true;` 到适当Routine中的 JS 组件【待测试】。
+If you want to save partial data, but only after participants complete a minimum amount of the experiment (e.g., 100 trials), add `PsychoJS._config.experiment.saveIncompleteResults = true;` to a JS component in the appropriate Routine [needs testing].
 
-## 语法问题
+## Syntax Issues
 
-python语法和js语法不同，以下是在论坛反馈过的语法问题**注意，以下代码均不能在线上运行，需手动修改**：
+Python and JavaScript syntax differ. Here are syntax issues reported in the forum **Note: the following code won't run online, manual modification required**:
 
 1. [0, 1] == [0, 1]
 2. [1, 2, 3, 3, 3, 3, 3] * 15
@@ -110,77 +109,77 @@ python语法和js语法不同，以下是在论坛反馈过的语法问题**注�
 6. str(423)
 7. 1 & 1 == 1
 
-对应方案：
+Solutions:
 
 1. [0, 1][0] == [0,1][0] & [0, 1][1] == [0,1][1]
 2. [1, 2, 3, 3, 3, 3, 3, 1, 2, 3, 3, 3, 3, 3, 1, 2, 3, 3, 3, 3, 3, 1, 2, 3, 3, 3, 3, 3, ...]
-3. 无解，不能使用
-4. 取整：Math.floor(7 / 5)  取余：7 % 5
+3. No solution, cannot use
+4. Integer division: Math.floor(7 / 5)  Remainder: 7 % 5
 5. new Date().getTime()
 6. (423).toString()
 7. 1 and 1 == 1
 
-## rating marker的起始位置线上不显示
+## Rating Marker Initial Position Not Showing Online
 
-经过测试，在线实验无法支持*slider*的默认位置，需要从代码实现。
+Testing shows that online experiments don't support default *slider* positions. This needs to be implemented through code.
 
-也就是添加code组件，然后在`begin routine`添加`slider1.setMarkerPos(50)`即可
+Add a code component and add `slider1.setMarkerPos(50)` in `begin routine`
 
-## 在线实验可以打Mark吗？例如脑电、皮点等？
-这需要询问您的设备供应商是否提供了相应的方法以及具体如何进行操作。
+## Can Online Experiments Add Marks? (e.g., EEG, skin conductance)
+This depends on whether your device supplier provides corresponding methods and specific operation instructions.
 
-## PsychoPy节点是什么？
-PsychoPy是一款老牌的心理学实验编写软件，并支持在线实验功能。脑岛通过兼容PsychoPy相关的导出文件使您能够在线收集数据。
+## What is PsychoPy Node?
+PsychoPy is a well-established psychological experiment development software that supports online experiments. Naodao enables online data collection by being compatible with PsychoPy export files.
 
-## 上传的实验压缩包是否有大小限制？
-是的，请您不要上传超过100M的实验压缩包。您可以通过压缩图片、压缩视频等方式来减少压缩包的大小。
+## Is There a Size Limit for Uploaded Experiment Packages?
+Yes, please don't upload experiment packages larger than 100M. You can reduce package size by compressing images, videos, etc.
 
-## PsychoPy目前支持哪些版本？
-详见[PsychoPy实验](/2-researcher-manual/1-1-2-5-psychopy.md)
+## Which PsychoPy Versions are Currently Supported?
+See [PsychoPy Experiments](/2-researcher-manual/1-1-2-5-psychopy.md)
 
-您好，目前仅支持2020.1.3与2021.2.3版本，请您务必使用这两个版本编写。我们选择这两个版本的原因在于，这两个版本实验编辑器本身问题较少，同时所对应的线上实验也更稳定。后续如有优化，我们也会继续支持更多版本。
+Currently only versions 2020.1.3 and 2021.2.3 are supported. Please use these versions for development. We chose these versions because they have fewer issues with the experiment editor and correspond to more stable online experiments. We will support more versions as optimizations continue.
 
-## 如何使不同被试看到的刺激大致一样？
-PsychoPy里可以使用Height单位（即屏幕高度为单位1），这样所有刺激在所有被试电脑上他们的比例都是一样的，不会出现变形；而对于屏幕比例的处理（即刺激能不能完整出现在屏幕上），例如有些被试是16：9（e.g 1920*1080）有些被试是16：10（e.g. 2880*1800，常见于mac电脑），通常会设置刺激呈现边界不超过±0.8（即16：10）就能满足绝大部分需求。如果想要兼容性最佳，通常来说±0.5也可。此外，如果需要更为精细的控制，
+## How to Make Stimuli Appear Similar for Different Participants?
+PsychoPy can use Height units (where screen height = unit 1), ensuring all stimuli maintain the same proportions on all participant computers without distortion. For screen ratio handling (whether stimuli appear completely on screen), e.g., some participants use 16:9 (e.g., 1920*1080) while others use 16:10 (e.g., 2880*1800, common on Mac), usually setting stimulus presentation boundaries to ±0.8 (i.e., 16:10) meets most needs. For optimal compatibility, ±0.5 also works. Additionally, for more precise control:
 
-（1）脑岛提供了被试屏幕像素大小的筛选，可以自动排除一些屏幕分辨率很低的被试；
-（2）可以使用卡片矫正（例如银行卡等标准卡片）来估计屏幕的物理大小；利用盲点测试大约偏移13°来估计视角大小等。
+(1) Naodao provides participant screen pixel size filtering to automatically exclude participants with very low screen resolutions;
+(2) Card calibration (e.g., bank cards) can be used to estimate physical screen size; blind spot tests with approximately 13° offset can estimate visual angle.
 
-## 修改音频的HZ
+## Modifying Audio Hz
 
-在线Hz修改不可行，建议使用文件
+Online Hz modification is not feasible, recommend using files instead.
 
-## PsychoPy code 涉及到import等语法
+## PsychoPy Code Involving import and Other Syntax
 
-线上没有numpy等库，不支持import语法（需要使用替代的函数）
+Online doesn't have libraries like numpy and doesn't support import syntax (need alternative functions)
 
-替代函数的来源，可以自行百度
+Find alternative functions through online search
 
-## 资源库BART实验 线下运行只有一个试次
+## Resource Library BART Experiment Only Has One Trial Offline
 
-PsychoPy资源是线上下线下兼容的，但是有一些例外，这里就是其中一个例子：使用了声音组件。在线上实验中，PsychoJS会根据声音文件的时间长短来决定Routine的时间，因此Audio组件的时间会设置为无限长；而在线下则是根据其时间设置来。
+PsychoPy resources are online/offline compatible, with some exceptions, this being one: it uses sound components. In online experiments, PsychoJS determines Routine timing based on sound file duration, so Audio component time is set to infinite; offline follows its time settings.
 
-详细[参考这篇文章](https://forum.naodao.com/postingInfo?id=1499255336811630593)
+See [this article](https://forum.naodao.com/postingInfo?id=1499255336811630593) for details
 
-## 复杂按键判断
+## Complex Key Press Detection
 
-详见[文章](https://forum.naodao.com/postingInfo?id=1501126060505567233)
+See [article](https://forum.naodao.com/postingInfo?id=1501126060505567233)
 
-## 上传后打不开，显示 unknown resource
+## Cannot Open After Upload, Shows "unknown resource"
 
-* 方案1
+* Solution 1
 
-> 版本为2021.2.3，请删除导出路径的html。依次点击 `Edit experiment settings` > `Online`，找到`Output Path`，清空文本框的内容即可
+> For version 2021.2.3, delete html from export path. Go to `Edit experiment settings` > `Online`, find `Output Path`, clear the textbox content
 
-* 方案2
+* Solution 2
 
-> 请检查文件命名和路径在`js`文件中是否正确，路径分割以`/`为主，而不是`\`，也就是把反斜杠改成斜杠
+> Check if file naming and paths are correct in `js` files, use `/` for path separation, not `\`, i.e., change backslashes to forward slashes
 
-* 方案3
+* Solution 3
 
-> 请确保只有一个以`.html`结尾的文件，如有多个，请保留唯一一个可用的。
+> Ensure only one file ends with `.html`, if multiple exist, keep only one usable file.
 
-## 字体支持
+## Font Support
 
 * Arial (sans-serif)
 * Verdana (sans-serif)
@@ -194,60 +193,58 @@ PsychoPy资源是线上下线下兼容的，但是有一些例外，这里就是
 * Brush Script MT(cursive)
 * STSong
 
-## 部分图片材料不能正确读取
+## Some Image Materials Not Reading Correctly
 
-请手动添加资源文件，方式如下:
+Please manually add resource files as follows:
 
-依次点击 `Edit experiment settings` > `Online`, 找到`Additional Resources`，这里面进行增减即可。
+Go to `Edit experiment settings` > `Online`, find `Additional Resources`, make additions/removals there.
 
-## 数据乱码
+## Data Encoding Issues
 
-在线实验，采用的是UTF-8，一般采用的是gbk，乱码情况下，用excel导入功能以UTF8导入csv文件即可正常显示
+Online experiments use UTF-8, while offline usually uses GBK. For encoding issues, use Excel's import feature to import CSV files as UTF-8 for proper display.
 
-## 定义的变量不能够按照预期执行
+## Defined Variables Not Executing as Expected
 
-请确保变量名称与各个Routine名称、loop名称、循环条件名称均不相等，不然会造成JavaScript重定义问题
+Ensure variable names don't match any Routine names, loop names, or loop condition names, otherwise JavaScript redefinition issues will occur.
 
-[案例1](https://forum.naodao.com/postingInfo?id=1522061951159767041)
-[案例2](https://forum.naodao.com/postingInfo?id=1574235865155375105)
+[Case 1](https://forum.naodao.com/postingInfo?id=1522061951159767041)
+[Case 2](https://forum.naodao.com/postingInfo?id=1574235865155375105)
 
-## 条件的变量为空，造成undefined
+## Condition Variable Empty, Causing undefined
 
 ![](imgs/1523602447262945281.png)
 
-比如上面的表格，`stim_sportsall1` 在时间线下某些循环中为空值，需要进行填充
+For example, in the above table, `stim_sportsall1` is empty in some timeline loops, needs to be filled.
 
-详细参考[论坛](https://forum.naodao.com/postingInfo?id=1523567902115237890)
+See detailed reference in [forum](https://forum.naodao.com/postingInfo?id=1523567902115237890)
 
-## loop循环出问题，用了thisN函数
+## Loop Issues with thisN Function
 
-`.thisN`这个属性在线是用不了的，你可以用其他的方式
+`.thisN` attribute doesn't work online, use alternative methods
 
-## 在线录音问题
+## Online Recording Issues
 
-目前暂不支持麦克风的数据存储，后续会考虑加入的~
+Currently doesn't support microphone data storage, will consider adding in future
 
-## new core.Clock()报错
+## new core.Clock() Error
 
-请在js这边改成 new util.Clock()
+Please change to new util.Clock() for JavaScript
 
-## 版本语法问题
+## Version Syntax Issues
 
 ![](../images/2024/1531577623778824193.png)
 
-主要案例为上面图片，将*\$\'right\'*改为 *right* 即可
+Main case shown in above image, change *\$\'right\'* to *right*
 
-## 修改背景颜色
+## Changing Background Color
 
-如果你的版本是2021.2.3，请参考这篇[帖子](https://forum.naodao.com/postingInfo?id=1541755998795206657)
+If using version 2021.2.3, refer to this [post](https://forum.naodao.com/postingInfo?id=1541755998795206657)
 
-## 数据并未上传到脑岛
+## Data Not Uploaded to Naodao
 
-* 方案1
+* Solution 1
 
-请检查文件夹是否具有`lib`文件夹，这个是本地调试自动生成的，上传请删除。
-
-
+Check if folder has `lib` folder, which is automatically generated for local debugging. Delete before uploading.
 
 
 <!-- ## 线上自动运行

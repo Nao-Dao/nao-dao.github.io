@@ -3,7 +3,7 @@
 <div class="demo-theme-preview">
   <a data-theme="vue">Vue</a>
   <a data-theme="buble">Buble</a>
-  <a data-theme="dark">黑色风格</a>
+  <a data-theme="dark">Dark</a>
   <a data-theme="pure">Pure</a>
 </div>
 
