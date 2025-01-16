@@ -1,6 +1,6 @@
-# Simple Cloud <!-- {docsify-ignore-all} -->
+# 简单云 <!-- {docsify-ignore-all} -->
 
-For instructions on using [Simple Cloud] experiments, please refer to[ Getting Started with Simple Cloud Guide](https://mp.weixin.qq.com/s/Ly3Sa_9uwE9onAHZbHtLzA) and [Simple Cloud Experimental Platform User Manual](https://www.naodao.com/public/air_cog_sci.pdf).
+【简单云】实验的使用方法请参考[带你轻松入门简单云](https://mp.weixin.qq.com/s/Ly3Sa_9uwE9onAHZbHtLzA) 以及 [简单云实验平台的使用手册](https://www.naodao.com/public/air_cog_sci.pdf)。
 
 ![](../images/2022/1647583370041-ad782826-a3b1-4667-ba83-dbc8954dc5f1.gif)
 
@@ -8,8 +8,10 @@ For instructions on using [Simple Cloud] experiments, please refer to[ Getting S
 
 ![](../images/2022/1647583370141-ebcd526f-1222-4d90-9a67-3f2e57f80710.png)
 
-## Others
-[An Online Experiment Creation Tool That Requires No Programming](https://mp.weixin.qq.com/s/Ly3Sa_9uwE9onAHZbHtLzA)
 
-[Simple Cloud_Bilibili_bilibili](https://www.bilibili.com/video/BV1g14y147ZT?p=6)
+
+## 其他教程
+[脑岛使用小妙招04丨带你轻松入门简单云—无需编程的在线实验制作神器](https://mp.weixin.qq.com/s/Ly3Sa_9uwE9onAHZbHtLzA)
+
+[简单云_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1g14y147ZT?p=6)
 

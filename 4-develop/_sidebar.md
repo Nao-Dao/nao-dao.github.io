@@ -1,5 +1,5 @@
-- [Development Log](/4-develop/)
+- [开发日志](/4-develop/)
 
-- [Copyright Statement](/4-develop/2-copyright.md)
+- [版权声明](/4-develop/2-copyright.md)
 
-- [Feedback](/4-develop/3-feedback.md)
+- [问题反馈](/4-develop/3-feedback.md)

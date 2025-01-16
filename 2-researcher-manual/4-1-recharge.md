@@ -1,71 +1,81 @@
-### Recharge and Refund <!-- {docsify-ignore-all} -->
+### 充值与退款 <!-- {docsify-ignore-all} -->
 
-For issues with recharge, invoicing, etc., please consult the researcher financial customer service.
+若在充值、开票等过程中遇到问题，请咨询研究者财务客服。
+
+
+
 
 ![](../images/2024/1710325015641-93dd356a-3b99-4143-a671-93e40706a22c.png)
 
-## ![](../images/2024/1710325706735-e1623e9b-e313-40e3-add9-8619ce3d2ef9.png)Recharge and Refund
-Researchers can check their current account balance and perform recharge operations in their personal center - [Account Balance](https://research.naodao.com/user/acount). The balance is currently only used for participant compensation. Account balance is divided into personal accounts and corporate accounts, and the balances of these 2 accounts cannot be mixed.
+## ![](../images/2024/1710325706735-e1623e9b-e313-40e3-add9-8619ce3d2ef9.png)充值与退款
+研究者在其个人中心——[账户余额](https://research.naodao.com/user/acount)能够查看当前账户余额及进行充值操作。余额目前仅用于支付被试费。账户余额又分为个人账户和对公账户，2 个账户余额不能混用。
 
-### Personal Account Recharge
+
+
+### 个人账户充值
 ![](../images/2022/1653465876156-01632bc2-bc01-4ee7-a07a-b1d25fde52ec.png)
 
-### Corporate Account Recharge
-Corporate recharge is suitable for large-amount recharges by organizations like research groups, specifically for transfers from **<font style="color:#F38F39;">corporate bank accounts</font>** that require paper documentation for reimbursement. Corporate account recharge **<font style="color:#F38F39;">does not support direct refund operations</font>**. For refunds, please contact recharge customer service via email at [mkt@naodao.com](mailto:mkt@naodao.com).
+### 对公账户充值
+对公充值适用于课题组等组织的大额充值，即能够通过企业的银行**<font style="color:#F38F39;">对公账户</font>**转账，并需要提供纸质凭证以报销的情况。对公账户充值**<font style="color:#F38F39;">不支持直接退款操作</font>**，如需退款请邮箱联系充值客服 [mkt@naodao.com](mailto:mkt@naodao.com)。
 
-Corporate account recharge does not support transfers from personal bank accounts. Recharge applications using personal accounts will be rejected.
+对公账户充值不支持使用个人银行账户转账，使用个人账户申请的充值将会被驳回
 
-Corporate recharge involves the following 5 steps:
+
+对公充值需要经历以下 5 个步骤
 
 ![](../images/2022/1652337905944-f4fb1b44-2156-43f2-805b-e7ad3a5edd51.png)
 
-1. **recharging party** submits a recharge application with account and contact information, awaiting platform review
-2. **platform** contacts you to verify recharge information and approves the application after successful communication
-3. **recharging party** transfers money to the designated platform account and confirms online (upload bank transfer receipt)
-4. **platform** verifies receipt of payment, approves after financial confirmation
-5. recharged amount enters the researcher's "Personal Center - Account Information - Corporate Account"
+1. **充值方**提交充值申请，留下账号和联系方式，等待平台审核
+2. **平台方**收到申请后会与您联系并核实充值信息，双方沟通成立后平台通过审核
+3. **充值方**向指定平台账户汇款，并在线上确认已汇款（上传银行转账的回执单）
+4. **平台方**核实是否汇款到账，经财务确认到账后则通过审核
+5. 充值金额会进入研究者账户的「个人中心 — 账户信息 — 对公账户」中
 
-## Reimbursement Matters
-### Invoice Issuance for Recharged Balance
-1. **Personal Account**
+## 报销事宜
+### ![](../images/2024/1710331911615-f6ca90fc-3fb8-44f8-b531-b5fee14abdd4.png)为充值余额开具发票
+1. **个人账户**
 
-In the researcher's personal center - [Issue Invoice](https://research.naodao.com/user/invoice), researchers can choose to issue electronic invoices (regular invoices) for successful recharge orders. If refunding after invoice issuance, corresponding tax amounts will be deducted.
 
-> <font style="color:rgb(32, 31, 30);">Invoice amounts are based on recharge orders, regardless of balance usage. The system calculates available invoice balance based on recharge records, previous invoice records, and refund records.</font>
+
+在研究者个人中心——[开具发票](https://research.naodao.com/user/invoice)内，研究者可以选择为充值成功的订单开具电子发票（普通发票）。若开具发票后退款需要扣除相应的税额。
+
+> <font style="color:rgb(32, 31, 30);">开具发票的金额是按照充值订单开具的，无关余额是否使用。系统会根据根据充值记录、过往开票记录和退款记录计算可开票的余额。</font>
 >
 
 ![](../images/2024/1710324609616-98f2926d-8541-41fd-b9a3-824b64e0890f.png)
 
-2. **Corporate Account**
+2. **对公账户**
 
-For corporate accounts, invoice choice is made during recharge. After completing the recharge process, financial customer service handles invoice issuance.
+对公账户在充值时选择是否开票。充值流程完成后由财务客服进行开票。
 
-### Invoice Issuance for Membership Purchase
-Invoice issuance for membership purchases varies by payment method:
+### 为购买会员开具发票
+购买会员根据支付方式的不同，开具发票也分为几种情况
 
-1. **Membership paid with corporate account balance**  
-If the corporate account recharge was already invoiced, membership fees are included and cannot be invoiced again.
-2. **Membership paid via third-party payment (WeChat Pay, Alipay, etc.)**  
-Membership amount is added to "Available Invoice Balance". Invoice amount can be any value not exceeding "Available Invoice Balance". **For membership-specific reimbursement, issue an invoice equal to the membership fee.**
+1. **使用对公账户余额支付的会员**  
+如果对公账户充值已经开过票，则购买会员的费用已经包含在内，无法重复开票。
+2. **使用第三方支付（微信支付、支付宝等）支付的会员**  
+购买会员的金额将添加到「可开票余额」中。开具发票的金额可自由填写不大于「可开票余额」的数值，**若需要单独为会员报销，开具与会员费用等额的发票即可。**
 
-### Data Collection Agreement (Contract)
-Researchers needing participant fee certification agreements (or contracts) for reimbursement can [download](https://www.naodao.com/public/%E8%84%91%E5%B2%9B%E5%B9%B3%E5%8F%B0%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86%E6%9C%8D%E5%8A%A1%E5%8D%8F%E8%AE%AE.docx) the "Naodao Platform Data Collection Service Agreement", complete it, and contact recharge customer service at [mkt@naodao.com](mailto:mkt@naodao.com) for next steps.
+### 数据采集协议（合同）
+对于研究者需要平台方提供被试费证明协议材料（或合同）以供报销的，可以[点击下载](https://www.naodao.com/public/%E8%84%91%E5%B2%9B%E5%B9%B3%E5%8F%B0%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86%E6%9C%8D%E5%8A%A1%E5%8D%8F%E8%AE%AE.docx)《脑岛平台数据采集服务协议》进行填写，然后联系充值客服邮箱 [mkt@naodao.com](mailto:mkt@naodao.com) 进行后续步骤。
 
-> Data collection agreements only support researchers using the **<font style="color:#C75C00;">corporate recharge</font>** process
+> 数据采集协议仅支持**<font style="color:#C75C00;">对公充值</font>**流程的研究者填写
 >
 
-### Participant Fee Details
-For researchers needing **<font style="color:#F38F39;">each</font>** participant fee order detail, follow these steps:
+### 被试费明细
+<font style="color:rgb(38, 38, 38);">对于研究者需要</font>**<font style="color:#F38F39;">每一笔</font>**被试费的订单详情的，可以通过如下步骤获取
 
-1. Go to Personal Center - Account Information - Personal Account / Corporate Account - Account Details
+1. 进入个人中心——账户信息——个人账户 / 对公账户——账户明细  
 ![](../images/2022/1663754731929-f1626f07-34d6-423f-a4fd-21b9dde8022a.png)
-2. Scroll to the bottom of orders, select historical transaction data export, and filter orders by time or project 
+2. 拉到订单最下方，选择历史出账的数据导出，并根据时间或项目筛选订单  
 ![](../images/2024/1709879462984-5d405963-955f-412a-b97e-fbf07feb16e8.png)
 
-Exported details example:
+
+
+导出的明细样例如下：
 
 ![](../images/2024/1709878924113-5dd777df-a5d6-4d6c-a2c7-484263f3f8d2.png)
 
-## Other Tutorials
-[Naodao Recharge Reimbursement and Refund: Complete Materials, Dedicated Customer Service, Worry-free Reimbursement](https://mp.weixin.qq.com/s/Q40Mj1WkOc5muzTI0v2lbg)
+## 其他教程
+[脑岛使用小妙招19丨脑岛充值报销和退款，材料齐全、专属客服、报销无忧](https://mp.weixin.qq.com/s/Q40Mj1WkOc5muzTI0v2lbg)
 

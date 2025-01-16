@@ -1,5 +1,5 @@
-# Personal Information Node <!-- {docsify-ignore-all} -->
-The Personal Information Node is a special type of questionnaire node that comes with pre-set questions commonly used for collecting personal information. Researchers can modify the content according to their needs. The usage method is basically the same as the questionnaire node.
+# 个人信息节点 <!-- {docsify-ignore-all} -->
+个人信息节点是一类特殊的问卷节点，其中预设了常见的收集个人信息的题目。研究者可以根据需要对内容进行修改。使用方法基本与问卷节点相同。
 
 ![](../images/2022/1647583365418-1c1ad363-a2d1-4c1b-98fd-4b8d47d199b3.gif)
 

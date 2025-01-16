@@ -1,17 +1,20 @@
-# Data Export Guide for Simple Cloud Experiments
+# 简单云实验导出数据说明
 
-On the Simple Cloud platform, exported data includes block number, trial number, experimental stimuli, participant responses, reaction time, as well as absolute timestamps for: stimulus presentation, fixation cross (or blank screen) appearance, and feedback presentation. The absolute timestamp is calculated as the time elapsed from the zero point (the moment when the participant clicks [Fullscreen or Not Fullscreen]) to a specific event node.
+在简单云平台，导出的数据包括区块编号（block 编号）、试次编号、实验刺激、被试的回答、反应时，以及实验刺激出现的绝对时间点、十字注视点（或者空白屏）出现的绝对时间点、反馈呈现出现的绝对时间点。绝对时间点的算法为：从时间的零点（即被试点击完
+
+【全屏还是不全屏】的那个瞬间）开始，到某个节点的所遍历的时间。
 
 ![](imgs/Image_045.png)
 
-For example, if trial 2 has a timestamp of 14497, this means 14497 milliseconds have elapsed from the moment the participant clicked [Fullscreen or Not Fullscreen] until the second trial appeared.
+举个例子，比如试次 2 出现的时间点为 14497,意思是，当被试点击了【全屏还是不全屏】的那个瞬间开始到第二个试次出现，遍历了 14497 毫秒。
 
-Regarding participant responses, there are two special formats explained below.
+关于被试的回答，有两种比较特殊的形式，说明如下。
 
-## Voice Data
+## 语音数据
 
-## Mouse Trajectory Data
+## 鼠标轨迹数据
 
 ![](imgs/Image_047.png)
 
-X represents the horizontal coordinate position of the mouse on the screen, Y represents the vertical coordinate position of the mouse on the screen; timeStamp represents the moment in time when the mouse was at a particular position.
+X 代表的是鼠标在屏幕的横向坐标位置，Y 代表的是鼠标在屏幕的纵向坐标位置； timeStamp 代表的是当鼠标出于某个位置的时候，该时刻的时间点。
+

@@ -1,7 +1,7 @@
 
-## Project Publication Management <!-- {docsify-ignore-all} -->
+## 项目发布管理 <!-- {docsify-ignore-all} -->
 
-You can access the project's publication management page by clicking the [Publication Management] button next to Create Project.
+您可点击创建项目旁的【发布管理】按钮进入项目的发布管理页面。
 
 ![](../images/2022/1654694483724-6d1b6d07-8a9c-4bde-9791-80ecf1e6a493.png)
 
@@ -9,25 +9,34 @@ You can access the project's publication management page by clicking the [Public
 
 ![](../images/2022/1654694865141-9e1b74f9-33db-4a19-bb6a-2814274f019c.png)
 
-Projects in the publication management page may have the following publication statuses: [Unpublished] [Publishing] [Cancelled]
+发布管理页面的项目存在的发布状态可能有【未发布】【发布中】【已取消】
 
-> Unpublished projects typically don't appear in publication management, but projects created through **project copying** will appear in publication management even if unpublished, and will retain most of the original project's publication information.
+
+
+> 未发布的项目通常不会出现在发布管理中，但通过**复制项目**而来的项目，即使状态为未发布也会出现在发布管理，并且会保留原项目的大部分发布信息。
 >
 
-The [Operations] column on the right side of the [Publication Management] page allows 2 operations for published projects: [View Publication Information] and [Cancel Publication]
+
+
+【发布管理】页面右侧【操作】栏里可以对已发布的项目进行 2 种操作：【查看发布信息】和【取消发布】
 
 ## 查看发布信息
-Main entry: [Publish Project](/2-researcher-manual/1-1-6-publish-project.md)
+主条目：[发布项目](/2-researcher-manual/1-1-6-publish-project.md)
 
-Published projects can no longer access the [Project Publication] interface from the canvas. You can click "View" here to review the publication information of already published projects.
 
-## Cancel Publication
 
-You can actively cancel published projects using the [Cancel Publication] button. <font style="color:rgb(38, 38, 38);">Once a project's publication is cancelled, participants can no longer access it for responses.</font>
+已发布的项目无法再从画布进入【项目发布】界面，可以从此处点击「查看」重新查看已发布的项目的发布信息。
 
-> When the effective number of participants reaches the "project participant count", the project status changes to "**Completed**". Projects manually cancelled before this point will have their status changed to "**Cancelled**". **Once cancelled, a project cannot be published again**.
+## 取消发布
+
+
+可以通过【取消发布】按钮主动取消已经发布的项目。<font style="color:rgb(38, 38, 38);">项目被取消发布后，被试无法再进入项目作答。</font>
+
+
+
+> 项目的有效人数达到「项目人数」后，项目状态会变为「**已完成**」。在此之前手动取消的项目，<font style="color:rgb(38, 38, 38);">项目状态会变为「</font>**<font style="color:rgb(38, 38, 38);">已取消</font>**<font style="color:rgb(38, 38, 38);">」。</font>**项目一经取消无法再次发布**。
 >
 
-## Other Tutorials
-[Master Project Publication Management and Data Management Easily](https://mp.weixin.qq.com/s/RVgvSqqBYg0JVzjPYyc7BA)
+## 其他教程
+[脑岛使用小妙招17丨教你轻松掌握项目发布管理和数据管理](https://mp.weixin.qq.com/s/RVgvSqqBYg0JVzjPYyc7BA)
 

@@ -1,5 +1,5 @@
- ## Copyright Statement <!-- {docsify-ignore} -->
+## 版权声明 <!-- {docsify-ignore} -->
 
-Thank you to all our partners who have provided constructive suggestions! Thank you to the authors of the projects referenced in this project!
+感谢所有提出建设性建议的小伙伴们！ 感谢本项目引用的项目作者的贡献！
 
-If there are any omissions in declarations or copyright issues, please contact the author promptly. Thank you!
+如果遗漏申明或者版权问题，请及时联系作者，感谢！

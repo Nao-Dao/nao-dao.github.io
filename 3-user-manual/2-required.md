@@ -1,10 +1,10 @@
-## Essential Reading for Test-Taking <!-- {docsify-ignore-all} -->
+## 作答必读 <!-- {docsify-ignore-all} -->
 
-When taking tests, you may encounter experiments that consist of multiple parts (multiple experiments + questionnaires).
+当您作答时，可能会存在一个实验有多个部分（多个实验+问卷）的情况。
 
-When you complete a single experiment (not a questionnaire, usually tasks requiring responses) and see the experiment's ending message, please don't close the browser directly. Instead, only close the experiment tab, return to the previous page, and click "Experiment Completed." If there are unfinished parts, you will proceed to the next section; if all parts are completed, the data will be submitted.
+当您完成了单个实验（不是问卷，一般是一些需要作出反应的任务），并看到了实验的结束语时，请不要直接关闭浏览器，而应该仅关闭实验的标签页，回到上一个页面，点击「已完成实验」。如果有未完成的部分，则会进入下一部分；如果完成了所有部分，则会提交数据。
 
-If the data is not submitted, researchers will not be able to receive your responses normally, and you may not receive compensation as a result.
+如果没有提交数据，研究者将无法正常收到您的作答，您也很可能因此得不到报酬。
 
 ![](imgs/1512040549417619457.png)
 ![](imgs/3270f3e3-7083-443c-9a7b-e68aa4a07fc9.png)

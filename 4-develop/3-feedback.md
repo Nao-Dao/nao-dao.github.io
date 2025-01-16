@@ -1,13 +1,13 @@
- ## Feedback <!-- {docsify-ignore} -->
+## 问题反馈 <!-- {docsify-ignore} -->
 
-You can provide feedback through the following channels:
+你可以通过以下方式反馈问题：
 
-General Inquiries: [info@naodao.com](mailto:info@naodao.com)
+咨询信息：[info@naodao.com](mailto:info@naodao.com)
 
-Researchers: [research@naodao.com](mailto:research@naodao.com)
+研究者：[research@naodao.com](mailto:research@naodao.com)
 
-Participants: [service@naodao.com](mailto:service@naodao.com)
+被试者：[service@naodao.com](mailto:service@naodao.com)
 
-Forum: [forum@naodao.com](mailto:forum@naodao.com)
+论坛：[forum@naodao.com](mailto:forum@naodao.com)
 
-Business Cooperation: [mkt@naodao.com](mailto:mkt@naodao.com)
+商务合作：[mkt@naodao.com](mailto:mkt@naodao.com)

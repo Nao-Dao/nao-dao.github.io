@@ -1,133 +1,133 @@
-# Introduction to Simple Cloud Basic Functions
+# 简单云基本功能介绍
 
-## Global Experiment Settings
+## 实验全局设置
 
 ![](imgs/Image_007.png)
 
-## Experiment Content (Blocks)
+## 实验内容（块）
 
-The experiment content (blocks) section is the core part of experiment setup. Click [Add Experiment Block] to add a block. If your experiment has two blocks, click [Add Experiment Block] twice.
+实验内容（块）这部分是设置实验的核心部分。点击【添加实验块】，即增加一个实验块（block）。如果您的实验有两个 block，则点击两次【添加实验块】。
 
 ![](imgs/Image_009.png)
 
-After adding experiment blocks, please set the basic information for each block.
+添加完实验块之后，请您设置这个实验块的基本信息。
 
 ![](imgs/Image_010.png)
 
-## Setting Trial Information for Each Experiment Block
+## 设置每个实验块（block）的实验试次信息
 
 ![](imgs/Image_012.png)
 
-### Stimulus Type Settings
+### 刺激类型设置
 
-Stimulus types include text, images, videos, and audio.
+刺激类型包括文字、图片、视频和音频。
 
-#### Text
+#### 文字
 
-For text stimuli, enter text in the red box.
+若为文字，则在红框处输入文字。
 
 ![](imgs/Image_013.png)
 
-#### Images
+#### 图片
 
-For images, add the image and set its arrangement style, width, and height.
+若为图片，则添加图片，并设置图片排列方式，以及设置图片的宽度和高度。
 
 ![](imgs/Image_015.png)
 
-#### Video
+#### 视频
 
-For videos, upload the video and set its width and height. Please note! Videos must be in MP4 format!
+若为视频，则上传视频，并设置视频的宽度和高度。请注意！视频只能是 MP4 格式！
 
 ![](imgs/Image_016.png)
 
-#### Audio
+#### 音频
 
-For audio, upload the audio file in MP3 format.
+若为音频，则上传音频，MP3 格式。
 
 ![](imgs/Image_018.png)
 
-### Content and Time Between Trials, Response Duration
+### 试次之间呈现的内容和时间、答题时长
 
 ![](imgs/Image_019.png)
 
-### Response Types
+### 按键类型
 
-#### Buttons
+#### 按钮
 
 ![](imgs/Image_021.jpg)
 
-#### Keyboard
+#### 键盘
 
 ![](imgs/Image_022.jpg)
 
-#### Slider
+#### 滑块
 
 ![](imgs/Image_023.jpg)
 
-#### Text Input
+#### 文字输入
 
 ![](imgs/Image_024.jpg)
 
-#### Mouse Tracking
+#### 鼠标轨迹
 
 ![](imgs/Image_025.jpg)
 
-#### Voice Input
+#### 语音输入
 
 ![](imgs/Image_026.jpg)
 
-#### No Response Setting
+#### 不设置按键
 
 ![](imgs/Image_027.jpg)
 
-### Response Time Feedback Options
+### 是否反馈反应时长
 
-#### Logic Settings for Experiments with Feedback
+#### 有反馈实验的逻辑设置
 
 ![](imgs/Image_029.png)
 
-#### Logic Settings for Experiments without Feedback
+#### 无反馈实验的逻辑设置
 
 ![](imgs/Image_030.png)
 
-### Setting Experiment Logic (Only for Experiments with Feedback)
+### 设置实验逻辑（仅针对于有反馈实验）
 
-#### Feedback Based on Response Time
+#### 根据反应时长反馈
 
 ![](imgs/Image_032.png)
 
-#### Feedback Based on Participant's Answer
+#### 根据被试答案反馈
 
 ![](imgs/Image_034.png)
 
-#### Feedback Based on Both Response Time and Participant's Answer
+#### 根据反应时长和被试答案反馈
 
 ![](imgs/Image_036.png)
 
-#### Feedback Based on Either Response Time or Participant's Answer
+#### 根据反应时长或被试答案反馈
 
 ![](imgs/Image_037.png)
 
-### Edit, Add, Delete Trials
+### 编辑、增加、删除试次
 
 ![](imgs/Image_038.png)
 
-## Batch Experiment Setup — Importing Experiment Templates
+## 批量设置实验——导入实验模板
 
-When there are many trials, setting each one manually can be time-consuming. Simple Cloud provides a quick way to set up multiple trials:
-(1) First click [Download Template]
-(2) After setting parameters in the template, click [Batch Import] to generate the experiment.
+当试次过多的时候，手动一个一个设置会比较费时间。简单云为大家提供一个可以快速设置多试次的方式，即
+（1）先点击【下载模板】；
+（2）设置模板内的参数之后，点击【批量导入】，即生成实验。
 
 ![](imgs/Image_040.png)
 
-The downloaded template is named: `exp_template.xls`
+下载下来的模板名字为： `exp_template.xls`
 
-Each column in the spreadsheet has detailed explanatory notes.
+表格中的每一栏有详细的提示说明。
 
-The only point that needs explanation here is regarding the URL addresses for images, videos, and audio.
+唯一一处需要在此处说明的是，关于图片、视频、音频的 URL 地址问题。
 
 ![](imgs/Image_041.png)
 
-As shown in column C above, there will be a unique code for each image (or video, audio). How to obtain this unique code? The method is simple, as shown below:
+从上图的第 C 列可以看出，会有一串关于该图片（或者视频、音频）的独特编码。那么这个独特编码是如何获取的呢？方法很简单，如下所示：
 
 ![](imgs/Image_043.png)

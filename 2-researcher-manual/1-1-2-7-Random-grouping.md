@@ -1,37 +1,52 @@
-# Random Grouping <!-- {docsify-ignore-all} -->
-Random grouping nodes can determine the number of project participants and establish multiple branches in the project workflow based on this number. Random grouping randomly assigns participants to different branches, which is suitable for situations such as random assignment of between-subjects factors.
+# 随机分组 <!-- {docsify-ignore-all} -->
+随机分组节点可以获取项目参与人数，并依据人数设置分组，为项目的流程建立多个分支。随机分组会将参与项目的被试随机分配至某个分支上，适用于随机分配被试间因素等情况。
 
-As shown in the example below, the initial random grouping node obtains the number of participants set for the project and uses it as the basis for grouping. Subsequent random nodes on each branch will obtain the number of participants for that specific branch.
-![](../images/2022/1649171979920-66857450-f3d0-4b42-a7de-16f2ebf09b7a.png)
 
-> Note: Branches created after grouping cannot be merged, meaning the entire project must maintain a tree structure
+
+如下图的示例，最开始的随机分组节点会获取设置的项目的参与人数，并作为分组依据。此后的分支上设置的随机节点会获取该分支的人数。![](../images/2022/1649171979920-66857450-f3d0-4b42-a7de-16f2ebf09b7a.png)
+
+> 分组后产生的分支无法再合并，即整个项目必须是树状结构
 >
 
-The configuration interfaces for two consecutive random grouping nodes are shown below (double-click to enter):
 
-![](../images/2022/1649171542364-d163abdd-9884-4492-88ef-af2eae09dbe9.png)
-![](../images/2022/1649171708153-d76b11ca-3bef-465a-9efb-d43857caa434.png)
 
-Random grouping is based on the set number of participants, which leads to certain limitations:
+前后两个随机分组节点的设置界面如下（双击进入）
 
-+ Random grouping nodes must have upstream nodes with determined participant numbers, therefore **<font style="color:#FA8C16;">random grouping cannot appear downstream of behavioral grouping</font>**
-+ If the number of participants is changed, all random grouping settings on the canvas become invalid and require regrouping and reconnecting
-+ When random grouping exists on the canvas, the number of participants cannot be changed on the **<font style="color:#FA8C16;">publishing page</font>**. To modify the number, you must return to canvas editing
+![](../images/2022/1649171542364-d163abdd-9884-4492-88ef-af2eae09dbe9.png) ![](../images/2022/1649171708153-d76b11ca-3bef-465a-9efb-d43857caa434.png)
 
-The **Random Grouping** node implements **dynamic random grouping** rather than traditional fixed-probability random assignment.
 
-Different from traditional random grouping:
 
-+ Each group can collect the specified number of participants, avoiding situations where one group has 30 people while another has 60
-+ During actual data collection, participants are distributed more evenly
-+ Compared to traditional random grouping methods, dynamic random grouping is less likely to result in consecutive assignments to the same group followed by consecutive assignments to another group
+:::color2
+随机分组建立在设置人数的基础上，因此存在一些限制
 
-**Random Grouping Example**:
++ 随机分组的上游节点必须确定人数，因此**<font style="color:#FA8C16;">随机分组无法出现在行为分组的下游</font>**
++ 一旦更改人数，则画布上所有的随机分组设置全部失效，需要重新分组、连线
++ 画布上存在随机分组，则**<font style="color:#FA8C16;">发布页面</font>**的人数无法再更改，若需要更改人数需要返回画布编辑
+
+:::
+
+****
+
+**随机分组**节点能够实现**动态随机分组**，而不是传统的固定概率随机分配。
+
+
+
+与传统的随机分组不同的是：
+
++ 每组都能收集到指定的人数，避免一组30人，一组60人的尴尬情况；
++ 在实际数据收集过程中，被试能够更为均匀地收集；
++ 与传统的随机分组方式相比，动态随机分组不太可能出现一直都是同一组随后一直都是另一组的情况；
+
+
+
+**随机分组示例**：
 
 ![](../images/2022/1647583370304-279af99c-60f3-4846-be1a-d0d1fa76507d.png)
 
-## Other Tutorials
-[Easy Random Grouping Implementation](https://mp.weixin.qq.com/s/fO6pV3J8PagHAA2hxa92HA)
 
-[Random Grouping_Bilibili_bilibili](https://www.bilibili.com/video/BV1g14y147ZT?p=9)
+
+## 其他教程
+[脑岛使用小妙招08丨轻松实现随机分组](https://mp.weixin.qq.com/s/fO6pV3J8PagHAA2hxa92HA)
+
+[随机分组_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1g14y147ZT?p=9)
 

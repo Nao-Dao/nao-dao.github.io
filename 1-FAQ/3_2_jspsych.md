@@ -1,4 +1,4 @@
 # JsPsych <!-- {docsify-ignore-all} -->
 
-> For more information, please check [Github Issue](https://github.com/jspsych/jsPsych/issues)
+> 更多请在[Github Issue](https://github.com/jspsych/jsPsych/issues)查看
 

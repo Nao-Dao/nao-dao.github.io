@@ -1,18 +1,18 @@
-# Share Project <!-- {docsify-ignore-all} -->
+# 分享项目 <!-- {docsify-ignore-all} -->
 
-When there are **shareable function nodes** on the canvas, you can click the share button in the upper right corner of the canvas to share nodes. It's important to note that Naodao currently only supports sharing **individual nodes**, not entire projects.
+<font style="color:rgb(38, 38, 38);">当画布上存在</font>**<font style="color:rgb(38, 38, 38);">可被分享的功能节点</font>**<font style="color:rgb(38, 38, 38);">时，您可以点击画布右上方的分享按钮进行节点分享。需要说明的是，</font>脑岛目前只支持您分享**单个节点**，不支持分享整个项目。
 
 ![](../images/2022/1647583371355-315db23b-03e2-4ac7-9062-7dc14f0416c8.png)
 
-**Shareable function nodes** include: [Personal Information], [Questionnaire], [Test Environment], [PsychoPy Experiment], [jsPsych Experiment], and [Simple Cloud].
+**<font style="color:rgb(38, 38, 38);">可被分享的功能节点</font>**<font style="color:rgb(38, 38, 38);">包括：【个人信息】、【问卷】、【测试环境】、【PsychoPy实验】、【jsPsych实验】、【简单云】。</font>
 
 <font style="color:rgb(38, 38, 38);"></font>
 
-It's important to note that when you choose to share a node to the **platform resource library**, this means you agree to transfer the node to Naodao, i.e., Naodao owns the rights to that node. For details, see the Naodao Platform Researcher Service Agreement.
+<font style="color:rgb(38, 38, 38);">需要说明的是，当您选择将节点分享到</font>**<font style="color:rgb(38, 38, 38);">平台资源库</font>**<font style="color:rgb(38, 38, 38);">时，这就意味着您同意将当前节点转让给脑岛，即脑岛拥有该节点的所有权。详情见脑岛平台研究者服务协议。</font>
 
 <font style="color:rgb(38, 38, 38);"></font>
 
-You can choose whether to **share data** - if you choose to share, other users can use the data collected based on the current node. You can also choose whether to **allow downloading of experiments/questionnaires** - if allowed, other users can download the experiments/questionnaires from that node to their local device.
+<font style="color:rgb(38, 38, 38);">您可以选择</font>**<font style="color:rgb(38, 38, 38);">是否分享数据</font>**<font style="color:rgb(38, 38, 38);">，若选择分享，则其他用户可以使用基于当前节点所收集到的数据；您也可以选择</font>**<font style="color:rgb(38, 38, 38);">是否允许下载实验/问卷</font>**<font style="color:rgb(38, 38, 38);">，若允许，则其他用户可以将该节点中的实验/问卷下载到本地。</font>
 
 ![](../images/2022/1647583371430-52bfa218-0f91-44d0-b1b3-5cdd3da7dd0e.png)
 
