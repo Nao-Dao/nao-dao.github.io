@@ -213,6 +213,6 @@ Considering some institutions may not issue ethics approval documents, Naodao pl
 
 Whether publishing to [Naodao Platform] or [Anonymous Response], you need to upload an informed consent form. Participants can see this consent form when participating in the project.
 
-<!-- > If you're unsure how to write an informed consent form, you can refer to this [Informed Consent Template](/assets/%E7%9F%A5%E6%83%85%E5%90%8C%E6%84%8F%E4%B9%A6_%E6%A8%A1%E6%9D%BF1.docx) -->
+> If you're unsure how to write an informed consent form, you can refer to this [Informed Consent Template](/assets/%E7%9F%A5%E6%83%85%E5%90%8C%E6%84%8F%E4%B9%A6_%E6%A8%A1%E6%9D%BF1.docx){target="_self"}
 
 ![](imgs/projects1-3/40.png)
