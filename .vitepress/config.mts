@@ -102,6 +102,10 @@ export default defineConfig({
           items: [
             { text: "充值与报销", link: "/2-researcher-manual/4-1-recharge" }
           ]
+        },
+        {
+          text: "进阶技巧",
+          link: "/2-researcher-manual/5-advance",
         }
       ],
       "3-user-manual": [

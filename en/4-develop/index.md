@@ -24,7 +24,9 @@
 
 Version 3.5.0 update scheduled time: June 30, 2022, 00:00-00:30, estimated duration 30 minutes
 
-!> [NOTICE] This update involves changes to the appeal process. Researchers with ongoing platform projects should check the Research Center - Appeal Feedback section and process any existing records promptly.
+:::tip
+[NOTICE] This update involves changes to the appeal process. Researchers with ongoing platform projects should check the Research Center - Appeal Feedback section and process any existing records promptly.
+:::
 
 ### Platform
 

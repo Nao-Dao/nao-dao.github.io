@@ -3,17 +3,13 @@ PsychoPy 是流行的创建心理学行为实验的工具。脑岛提供了对�
 
 <font style="color:rgb(38, 38, 38);"></font>
 
-:::color2
+:::tip 提示
 PsychoPy 新手？我们也为你整理了一些学习资源
 
 + [PsychoPy 官网](https://www.psychopy.org/)（英文）
 + [PsychoPy 支持中心](https://psychopyhelp.notion.site/PsychoPy-Help-Center-d517aee9e57749c6b766a005fd34646e) by 闲事与尘游
-
-
-
-如果你希望求助或与人交流 PsychoPy 心得，欢迎关注[脑岛论坛 PsychoPy 版块](https://forum.naodao.com/postingInfo?id=1500138031221575682)
-
 :::
+
 
 ![](../images/2022/1647583369297-64ad9466-6a4c-4886-8d72-0a64cd874e16.gif)
 

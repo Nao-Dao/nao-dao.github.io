@@ -17,7 +17,10 @@ To enhance your account security, NaoDao recommends completing your account info
 
 ![](imgs/image-20220301125737674.png)
 
-?> [NaoDao Tip] Is there any risk in binding Alipay and WeChat?
+:::tip NaoDao Tip
+Is there any risk in binding Alipay and WeChat?
+:::
+
 >
 > Short answer: No risk.
 >

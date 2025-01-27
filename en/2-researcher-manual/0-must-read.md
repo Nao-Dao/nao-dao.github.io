@@ -1,5 +1,3 @@
-# Researcher Guidelines
-
 # Certified Researchers
 After registering on NaoDao and verifying their identity, researchers are initially set as NaoDao test subjects (participants). To access researcher functions, certification is required.
 

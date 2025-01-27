@@ -3,12 +3,12 @@ PsychoPy is a popular tool for creating psychological behavioral experiments. Na
 
 <font style="color:rgb(38, 38, 38);"></font>
 
+:::tip
 New to PsychoPy? We've compiled some learning resources for you:
 
 + [PsychoPy Official Website](https://www.psychopy.org/)（English）
 + [PsychoPy Help Center](https://psychopyhelp.notion.site/PsychoPy-Help-Center-d517aee9e57749c6b766a005fd34646e) by Xianshi Yu Chenyou
-
-If you need help or want to discuss PsychoPy experiences, welcome to visit the [Naodao Forum PsychoPy Section](https://forum.naodao.com/postingInfo?id=1500138031221575682)
+:::
 
 ![](../images/2022/1647583369297-64ad9466-6a4c-4886-8d72-0a64cd874e16.gif)
 

@@ -1,6 +1,8 @@
  # Simple Cloud Experiment Sample Programs
 
-!> Please view on desktop computer
+:::tip
+Please view on desktop computer
+:::
 
 | Experimental Task | Link | Reference |
 |------------------|------|-----------|

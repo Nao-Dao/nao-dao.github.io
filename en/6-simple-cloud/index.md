@@ -15,6 +15,8 @@ Additionally, being an independent and capable researcher requires programming a
 
 Finally, we hope that NaoDao and NaoDao Simple Cloud will make your research journey smoother and more exciting!
 
-?> Written by Xin Yuan at the end of 2021
+> Written by Xin Yuan at the end of 2021
 
-!> This tutorial is intentionally brief, aiming to help users get started quickly with minimal and concise instructions.
+:::tip
+This tutorial is intentionally brief, aiming to help users get started quickly with minimal and concise instructions.
+:::

@@ -79,7 +79,9 @@ if len(pressed_keys) > 0:
 
 Please ensure the video file can be opened and played in a browser.
 
-!> AbortError: The play() request was interrupted by a call to pause().
+:::tip
+AbortError: The play() request was interrupted by a call to pause().
+:::
 
 [See this post for detailed reference](https://forum.naodao.com/postingInfo?id=1555137945563041793)
 

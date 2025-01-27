@@ -39,7 +39,9 @@ Naodao Platform currently offers two publishing channels: [Naodao Platform] and 
 
 ### Publication Title
 
-!> This option is only available when publishing to "Naodao Platform"
+:::tip
+This option is only available when publishing to "Naodao Platform"
+:::
 
 The first step in publishing your research project is setting a publication title.
 
@@ -69,7 +71,9 @@ but shows as `Test Your Implicit Self-Esteem Level!` in the "Earn Money by Answe
 
 ### Select Project Cover
 
-!> This option is only available when publishing to "Naodao Platform"
+:::tip
+This option is only available when publishing to "Naodao Platform"
+:::
 
 Currently, Naodao provides 15 cover images for different research fields. `Custom cover upload is not supported yet`.
 
@@ -85,7 +89,9 @@ The response time limit helps avoid situations where participants remain "in pro
 
 ### Estimated Completion Time
 
-!> This option is only available when publishing to "Naodao Platform"
+:::tip
+This option is only available when publishing to "Naodao Platform"
+:::
 
 For projects published to [Naodao Platform], you need to set an estimated completion time. This isn't the actual time required to complete the project or the maximum response time limit, but rather your (the researcher's) estimate of how long it typically takes a participant to complete the project under normal conditions. The estimated time will be displayed in the [Earn Money by Answering] section of Naodao's website, primarily serving to attract participants.
 
@@ -123,7 +129,9 @@ By default, Naodao does not restrict participants' screen resolution.
 
 ### Quality Control
 
-!> This option is only available when publishing to "Naodao Platform"
+:::tip
+This option is only available when publishing to "Naodao Platform"
+:::
 
 You can effectively improve participant and response quality through the [Quality Control] feature.
 
@@ -135,7 +143,9 @@ The historical data acceptance rate (%) indicates the percentage of accepted tes
 
 ### Verification Error Limit
 
-!> This option is only available when publishing to "Naodao Platform"
+:::tip
+This option is only available when publishing to "Naodao Platform"
+:::
 
 The [Verification Error Limit] refers to the number of questions researchers allow participants to answer incorrectly in the current project. If a participant's errors equal or exceed this number, they are considered to have not answered seriously.
 
@@ -163,7 +173,9 @@ For example, if we set the [Verification Error Limit] to 1, it means participant
 
 Main entry: [Participant Pool](2-participants.md)
 
-!> This option is only available when publishing to "Naodao Platform"
+:::tip
+This option is only available when publishing to "Naodao Platform"
+:::
 
 You can choose to publish to all registered users on Naodao platform or limit to a specific participant pool. Users not selected won't see the project on their homepage and cannot participate (even with a link).
 
@@ -179,7 +191,9 @@ The count is closely related to many project settings, so set it carefully. See 
 
 ### Test Compensation
 
-!> This option is only available when publishing to "Naodao Platform"
+:::tip
+This option is only available when publishing to "Naodao Platform"
+:::
 
 Test compensation is the payment given to participants for completing the project once. Test compensation cannot be 0 (minimum allowed is 0.01 yuan), otherwise the project cannot be published.
 
@@ -189,7 +203,9 @@ Test compensation is the payment given to participants for completing the projec
 
 ### Project Encryption
 
-!> This option is only available when publishing to "Naodao Platform"
+:::tip
+This option is only available when publishing to "Naodao Platform"
+:::
 
 Researchers can set passwords for projects published to [Naodao Platform] and distribute the passwords to specific participant groups.
 

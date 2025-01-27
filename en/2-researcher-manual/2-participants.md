@@ -1,6 +1,8 @@
 # Participant Pool <!-- {docsify-ignore-all} -->
 
-!> Participant pools can only be used in projects published on the Naodao platform
+:::tip
+Participant pools can only be used in projects published on the Naodao platform
+:::
 
 A participant pool is a means to control who can access published [projects]. Using participant pools, researchers can selectively publish projects to specific participants.
 
