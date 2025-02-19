@@ -203,21 +203,12 @@ link.download = `exper.csv`;
 先定位到`index.html`中，将`<script src="./naodao.js"></script>`添加到`<html><head>`当中。
 
 > 如果不清楚具体修改方法，可以参考下面的文件对比。
-::: details 修改前
-```html
-<html>
-    <head>
-        ...额外代码
-    </head>
-</html>
-```
-:::
 
-::: details 修改前
+::: details 示例代码
 ```html
 <html>
     <head>
-        <script src="./naodao.js"></script>
+        <script src="./naodao.js"></script> // [!code ++]
         ...额外代码
     </head>
 </html>
@@ -241,7 +232,7 @@ naodao.save();
 
 > 下面是具体案例
 
-::: details 修改前
+::: details 示例代码
 ```js
 function downloadData() {
     if (!gameState.participant || !gameState.trialData.length) return;
@@ -273,16 +264,20 @@ function downloadData() {
         )
     ].join('\n');
 
-    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = `balloon_task_${gameState.participant.name}_${gameState.participant.participantId}_${new Date().getTime()}.csv`;
-    
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    URL.revokeObjectURL(url);
+    const naodao = new Naodao(); // [!code ++]
+    naodao.getDate = () => { return csvContent; }; // [!code ++]
+    naodao.save(); // [!code ++]
+
+    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' }); // [!code --]
+    const url = URL.createObjectURL(blob); // [!code --]
+    const link = document.createElement('a'); // [!code --]
+    link.href = url; // [!code --]
+    link.download = `balloon_task_${gameState.participant.name}_${gameState.participant.participantId}_${new Date().getTime()}.csv`; // [!code --]
+    // [!code --]
+    document.body.appendChild(link); // [!code --]
+    link.click(); // [!code --]
+    document.body.removeChild(link); // [!code --]
+    URL.revokeObjectURL(url); // [!code --]
 
     const downloadButton = document.getElementById('download-button');
     if (downloadButton) {
@@ -295,52 +290,6 @@ function downloadData() {
 ```
 :::
 
-::: details 修改后
-```js
-function downloadData() {
-    if (!gameState.participant || !gameState.trialData.length) return;
-
-    const headers = [
-        'participantId',
-        'name',
-        'age',
-        'gender',
-        'education',
-        'trialNumber',
-        'balloonType',
-        'popThreshold',
-        'numPumps',
-        'earned',
-        'popped',
-        'trialDuration',
-        'timestamp'
-    ];
-
-    const csvContent = [
-        headers.join(','),
-        ...gameState.trialData.map(trial => 
-            headers.map(header => {
-                const value = trial[header];
-                return typeof value === 'string' && value.includes(',') ?
-                    `"${value}"` : value;
-            }).join(',')
-        )
-    ].join('\n');
-
-    const naodao = new Naodao();
-    naodao.getDate = () => { return csvContent; };
-    naodao.save();
-
-    const downloadButton = document.getElementById('download-button');
-    if (downloadButton) {
-        downloadButton.textContent = '数据已下载 📥';
-        downloadButton.disabled = true;
-        downloadButton.classList.add('bg-gray-400');
-        downloadButton.classList.remove('hover:bg-purple-600');
-    }
-}
-```
-:::
 
 
 
