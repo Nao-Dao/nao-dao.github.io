@@ -265,7 +265,7 @@ function downloadData() {
     ].join('\n');
 
     const naodao = new Naodao(); // [!code ++]
-    naodao.getDate = () => { return csvContent; }; // [!code ++]
+    naodao.getData = () => { return csvContent; }; // [!code ++]
     naodao.save(); // [!code ++]
 
     const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' }); // [!code --]
